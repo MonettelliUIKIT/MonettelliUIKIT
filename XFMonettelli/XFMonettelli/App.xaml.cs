@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using XFMonettelli.Views;
+
 namespace XFMonettelli
 {
     public partial class App : Application
@@ -10,7 +12,8 @@ namespace XFMonettelli
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new AppShell();
+            MainPage = new DemoPage();
         }
 
         protected override void OnStart()

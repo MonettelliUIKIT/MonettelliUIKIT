@@ -153,6 +153,58 @@
       <Name>XFMonettelli</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Assets\FontIcons\CustomIconFont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontIcons\materialdesignicons-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\BebasNeue-Thin.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-BoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-ExtraBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-ExtraBoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-Italic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-Light.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-LightItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-SemiBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\OpenSans-SemiBoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\BebasNeue-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\BebasNeue-Book.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\BebasNeue-Light.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\BebasNeue-Regular.ttf" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

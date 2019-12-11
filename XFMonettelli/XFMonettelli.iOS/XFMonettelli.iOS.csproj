@@ -67,6 +67,23 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\BebasNeue-Thin.ttf" />
+    <BundleResource Include="Resources\OpenSans-Bold.ttf" />
+    <BundleResource Include="Resources\OpenSans-BoldItalic.ttf" />
+    <BundleResource Include="Resources\OpenSans-ExtraBold.ttf" />
+    <BundleResource Include="Resources\OpenSans-ExtraBoldItalic.ttf" />
+    <BundleResource Include="Resources\OpenSans-Italic.ttf" />
+    <BundleResource Include="Resources\OpenSans-Light.ttf" />
+    <BundleResource Include="Resources\OpenSans-LightItalic.ttf" />
+    <BundleResource Include="Resources\OpenSans-Regular.ttf" />
+    <BundleResource Include="Resources\OpenSans-SemiBold.ttf" />
+    <BundleResource Include="Resources\OpenSans-SemiBoldItalic.ttf" />
+    <BundleResource Include="Resources\BebasNeue-Bold.ttf" />
+    <BundleResource Include="Resources\BebasNeue-Book.ttf" />
+    <BundleResource Include="Resources\BebasNeue-Light.ttf" />
+    <BundleResource Include="Resources\BebasNeue-Regular.ttf" />
+    <BundleResource Include="Resources\CustomIconFont.ttf" />
+    <BundleResource Include="Resources\materialdesignicons-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -124,6 +141,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.991221" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material">
+      <Version>4.3.0.991221</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
