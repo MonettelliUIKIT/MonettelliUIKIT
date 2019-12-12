@@ -32,7 +32,7 @@
 
 
     <!--#region SIZE ICONS FONT-->
-    <x:Double x:Key="TabSizeIcon">140</x:Double>
+    <x:Double x:Key="TabSizeIcon">40</x:Double>
     <!--#endregion-->
 
 

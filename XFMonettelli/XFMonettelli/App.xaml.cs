@@ -12,8 +12,8 @@ namespace XFMonettelli
         {
             InitializeComponent();
 
-            //MainPage = new AppShell();
-            MainPage = new DemoPage();
+            MainPage = new AppShell();
+            //MainPage = new DemoPage();
         }
 
         protected override void OnStart()

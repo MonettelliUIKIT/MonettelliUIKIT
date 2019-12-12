@@ -9,7 +9,7 @@ using Xamarin.Forms.Xaml;
 
 namespace XFMonettelli
 {
-    public partial class AppShell : Xamarin.Forms.Shell
+    public partial class AppShell : Shell
     {
         public AppShell()
         {

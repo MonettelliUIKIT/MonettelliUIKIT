@@ -58,7 +58,7 @@
     <Label
         Grid.Row="1"
         Grid.ColumnSpan="2"
-        Text="Luna Fernández E."
+        Text="Daniel Monettelli L."
         Style="{StaticResource TxtH6Flyout_1}" />
 
 </Grid>

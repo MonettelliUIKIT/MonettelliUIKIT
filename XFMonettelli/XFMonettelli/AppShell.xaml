@@ -32,26 +32,26 @@
 
     <!--#region SHELL RESOURCES-->
     <Shell.Resources>
+        
         <!--#region SHELL STYLES-->
-        <Color x:Key="NavigationPrimary">#FF9A196B</Color>
-        <Style
-            x:Key="BaseStyle"
-            TargetType="Element"
-            ApplyToDerivedTypes="True">
-            <!--  In iOS, this property changes the color of the FlyoutIcon and the selected top tabs  -->
-            <Setter Property="Shell.ForegroundColor" Value="{DynamicResource colQua}" />
-            <!--  In iOS this property changes the color tabs upper not selected  -->
-            <Setter Property="Shell.UnselectedColor" Value="{DynamicResource colTabBarUns}" />
-
+        <Color x:Key="NavigationPrimary">#2196F3</Color>
+        
+        <Style x:Key="BaseStyle" TargetType="Element">
             <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
-            <Setter Property="Shell.TitleColor" Value="#FFFFFF" />
-            <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource colTabBarBack}" />
-            <Setter Property="Shell.TabBarUnselectedColor" Value="{DynamicResource colTabBarUns}" />
-            <Setter Property="Shell.TabBarTitleColor" Value="{DynamicResource colPrim}" />
-            <!--<Setter Property="Shell.FlyoutBackgroundImage" Value="img_bgflyout.png"/>-->
+            <!--  In iOS, this property changes the color of the FlyoutIcon and the selected top tabs  -->
+            <Setter Property="Shell.ForegroundColor" Value="White" />
+            <Setter Property="Shell.TitleColor" Value="White" />
+            <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+            <!--  In iOS this property changes the color tabs upper not selected  -->
+            <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+            <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+            <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
+            <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+            <Setter Property="Shell.TabBarTitleColor" Value="White"/>
         </Style>
         <!--#endregion-->
-
+        
+        
         <!--#region ADD TabBar FlyoutBehavior is INVISIBLE-->
         <Style
             BasedOn="{StaticResource BaseStyle}"
