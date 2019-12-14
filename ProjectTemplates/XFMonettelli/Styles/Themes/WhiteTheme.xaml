@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="$safeprojectname$.Styles.Themes.WhiteTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Source="/Styles/General.xaml"
+    mc:Ignorable="d">
+
+    <!--#region Color Range-->
+    <Color x:Key="colPrim">#FF9A196B</Color>
+    <Color x:Key="colSec">#FF26315F</Color>
+    <Color x:Key="colTer">#FF56565A</Color>
+    <Color x:Key="colQua">#FFFFFFFF</Color>
+    <Color x:Key="colQui">#FF000000</Color>
+    <!--#endregion-->
+
+    <!--#region Backgroundcolors-->
+    <Color x:Key="colBG1">#FFFFFFFF</Color>
+    <Color x:Key="colBG2">#FFF5F8FB</Color>
+    <!--#endregion-->
+
+    <!--#region Entry Colors-->
+    <Color x:Key="colAccCheck">#FFE7F9F5</Color>
+    <Color x:Key="colAccError">#FFF9E7EB</Color>
+    <Color x:Key="colAccUns">#FFF2F3F5</Color>
+    <Color x:Key="colUnsPrim">#FFC7CAD1</Color>
+    <Color x:Key="colAltQua">#FFE3E7EF</Color>
+    <!--#endregion-->
+
+    <!--#region Border Colors-->
+    <Color x:Key="colBorCheck">#FF10CA87</Color>
+    <Color x:Key="colBorError">#FFCA1030</Color>
+    <!--#endregion-->
+
+    <!--#region Remark Colors-->
+    <Color x:Key="colRemPrim">#FFF93963</Color>
+    <Color x:Key="colRemSec">#FFD4145C</Color>
+    <!--#endregion-->
+
+    <!--#region Surface Colors-->
+    <Color x:Key="colSurf1">#FFFFFFFF</Color>
+    <Color x:Key="colSurf2">#FFFFFFFF</Color>
+    <!--#endregion-->
+
+    <!--#region Shell Colors-->
+    <Color x:Key="colTabBarUns">#FF96969A</Color>
+    <Color x:Key="colTabBarBack">#FFFFFFFF</Color>
+    <!--#endregion-->
+
+</ResourceDictionary>

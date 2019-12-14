@@ -1,0 +1,73 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>XFMonettelli.iOS</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>XFMonettelli.iOS</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>monettelli.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="XFMonettelli.iOS.csproj" File="XFMonettelli.iOS.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppDelegate.cs">AppDelegate.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Entitlements.plist">Entitlements.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Info.plist">Info.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Light.ttf">BebasNeue-Light.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Regular.ttf">BebasNeue-Regular.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Thin.ttf">BebasNeue-Thin.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="CustomIconFont.ttf">CustomIconFont.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout@2x.png">img_bgflyout@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout@3x.png">img_bgflyout@3x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="img_profile@2x.png">img_profile@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="img_profile@3x.png">img_profile@3x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.storyboard">LaunchScreen.storyboard</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="materialdesignicons-webfont.ttf">materialdesignicons-webfont.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Bold.ttf">OpenSans-Bold.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-BoldItalic.ttf">OpenSans-BoldItalic.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBold.ttf">OpenSans-ExtraBold.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBoldItalic.ttf">OpenSans-ExtraBoldItalic.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Italic.ttf">OpenSans-Italic.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Light.ttf">OpenSans-Light.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-LightItalic.ttf">OpenSans-LightItalic.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Regular.ttf">OpenSans-Regular.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBold.ttf">OpenSans-SemiBold.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBoldItalic.ttf">OpenSans-SemiBoldItalic.ttf</ProjectItem>
+      </Folder>
+
+      <Folder Name="Assets.xcassets" TargetFolderName="Assets.xcassets">
+          <Folder Name="AppIcon.appiconset" TargetFolderName="AppIcon.appiconset">
+            <ProjectItem TargetFileName="Contents.json">Contents.json</ProjectItem>
+            <ProjectItem TargetFileName="Icon20.png">Icon20.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon29.png">Icon29.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon40.png">Icon40.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon58.png">Icon58.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon60.png">Icon60.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon76.png">Icon76.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon80.png">Icon80.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon87.png">Icon87.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon120.png">Icon120.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon152.png">Icon152.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon167.png">Icon167.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon180.png">Icon180.png</ProjectItem>
+            <ProjectItem TargetFileName="Icon1024.png">Icon1024.png</ProjectItem>
+          </Folder>
+      </Folder>
+      
+    </Project>
+  </TemplateContent>
+</VSTemplate>

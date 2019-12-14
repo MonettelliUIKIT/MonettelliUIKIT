@@ -1,0 +1,110 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>XFMonettelli.Android</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>XFMonettelli.Android</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>monettelli.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="XFMonettelli.Android.csproj" File="XFMonettelli.Android.csproj" ReplaceParameters="true">
+      <Folder Name="Assets" TargetFolderName="Assets">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
+        <Folder Name="FontIcons" TargetFolderName="FontIcons">
+          <ProjectItem ReplaceParameters="false" TargetFileName="CustomIconFont.ttf">CustomIconFont.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="materialdesignicons-webfont.ttf">materialdesignicons-webfont.ttf</ProjectItem>
+        </Folder>
+        <Folder Name="FontsFamily" TargetFolderName="FontsFamily">
+          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Light.ttf">BebasNeue-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Regular.ttf">BebasNeue-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Thin.ttf">BebasNeue-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Bold.ttf">OpenSans-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-BoldItalic.ttf">OpenSans-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBold.ttf">OpenSans-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBoldItalic.ttf">OpenSans-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Italic.ttf">OpenSans-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Light.ttf">OpenSans-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-LightItalic.ttf">OpenSans-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Regular.ttf">OpenSans-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBold.ttf">OpenSans-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBoldItalic.ttf">OpenSans-SemiBoldItalic.ttf</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainActivity.cs">MainActivity.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+        <Folder Name="drawable" TargetFolderName="drawable" />
+        <Folder Name="drawable-hdpi" TargetFolderName="drawable-hdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-ldpi" TargetFolderName="drawable-ldpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-mdpi" TargetFolderName="drawable-mdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-xhdpi" TargetFolderName="drawable-xhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-xxhdpi" TargetFolderName="drawable-xxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-xxxhdpi" TargetFolderName="drawable-xxxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        </Folder>
+        <Folder Name="layout" TargetFolderName="layout">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tabbar.xml">Tabbar.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Toolbar.xml">Toolbar.xml</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-anydpi-v26" TargetFolderName="mipmap-anydpi-v26">
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.xml">icon.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon_round.xml">icon_round.xml</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-hdpi" TargetFolderName="mipmap-hdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-mdpi" TargetFolderName="mipmap-mdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xhdpi" TargetFolderName="mipmap-xhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xxhdpi" TargetFolderName="mipmap-xxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xxxhdpi" TargetFolderName="mipmap-xxxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource.designer.cs">Resource.designer.cs</ProjectItem>
+        <Folder Name="values" TargetFolderName="values">
+          <ProjectItem ReplaceParameters="true" TargetFileName="colors.xml">colors.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

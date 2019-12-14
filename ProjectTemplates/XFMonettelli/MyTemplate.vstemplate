@@ -1,0 +1,54 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>XFMonettelli</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>XFMonettelli</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="XFMonettelli.csproj" File="XFMonettelli.csproj" ReplaceParameters="true">
+      <Folder Name="Models" TargetFolderName="Models" />
+      <Folder Name="Styles" TargetFolderName="Styles">
+        <Folder Name="Themes" TargetFolderName="Themes">
+          <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml">DarkTheme.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml.cs">DarkTheme.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WhiteTheme.xaml">WhiteTheme.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WhiteTheme.xaml.cs">WhiteTheme.xaml.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CustomFontIcons.cs">CustomFontIcons.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FontIcons.cs">FontIcons.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="General.xaml">General.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Icons.xaml">Icons.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Spaces.xaml">Spaces.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Texts.xaml">Texts.xaml</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels" />
+      <Folder Name="Views" TargetFolderName="Views">
+        <Folder Name="ShellTemplates" TargetFolderName="ShellTemplates">
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutHeaderTemplate.xaml">FlyoutHeaderTemplate.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutHeaderTemplate.xaml.cs">FlyoutHeaderTemplate.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutItemTemplate.xaml">FlyoutItemTemplate.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutItemTemplate.xaml.cs">FlyoutItemTemplate.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml">FlyoutMenuItemTemplate.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml.cs">FlyoutMenuItemTemplate.xaml.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DemoPage.xaml">DemoPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DemoPage.xaml.cs">DemoPage.xaml.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppShell.xaml">AppShell.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppShell.xaml.cs">AppShell.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
