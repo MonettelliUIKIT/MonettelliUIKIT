@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using XFMonettelli.Styles.Themes;
+
 namespace XFMonettelli.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -15,6 +17,21 @@ namespace XFMonettelli.Views
         public DemoPage()
         {
             InitializeComponent();
+
+        }
+
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
+        {
+            if (e.Value == true)
+            {
+                Application.Current.Resources.Clear();
+                Application.Current.Resources = new DarkTheme();
+            }
+            else
+            {
+                Application.Current.Resources.Clear();
+                Application.Current.Resources = new WhiteTheme();
+            }
         }
     }
 }

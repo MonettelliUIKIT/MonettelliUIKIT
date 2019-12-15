@@ -417,6 +417,12 @@
         <Setter Property="FontSize" Value="{StaticResource TxtSizeBod2_14}" />
         <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
     </Style>
+    
+    <Style x:Key="TxtBody2_4" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeBod2_14}" />
+        <Setter Property="FontFamily" Value="{StaticResource BoldFont_OpenSans}" />
+    </Style>
     <!--#endregion-->
     <!--#endregion-->
 
