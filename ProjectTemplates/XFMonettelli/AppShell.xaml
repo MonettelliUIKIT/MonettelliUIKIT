@@ -17,7 +17,7 @@
     FlyoutHeaderBehavior="Scroll"
     ItemTemplate="{DataTemplate ShellTemplate:FlyoutItemTemplate}"
     MenuItemTemplate="{DataTemplate ShellTemplate:FlyoutMenuItemTemplate}"
-    Visual="Material"
+    Visual="Default"
     mc:Ignorable="d">
 
 
@@ -98,10 +98,10 @@
             Icon="{StaticResource icon_tab_order}">
             <ShellContent
                 Title="Current orders"
-                ContentTemplate="{DataTemplate view:DemoPage}" />
+                ContentTemplate="{DataTemplate view:DefaultPage}" />
             <ShellContent
                 Title="Past orders"
-                ContentTemplate="{DataTemplate view:DemoPage}" />
+                ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 
@@ -109,7 +109,7 @@
         <Tab
             Title="Favourite"
             Icon="{StaticResource icon_tab_favorite}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 
@@ -117,7 +117,7 @@
         <Tab
             Title="Profile"
             Icon="{StaticResource icon_tab_profile}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
     </ShellItem>
@@ -134,7 +134,7 @@
         <Tab
             Title="Search"
             Icon="{StaticResource icon_fly_search}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 
@@ -142,7 +142,7 @@
         <Tab
             Title="Shopping List"
             Icon="{StaticResource icon_fly_basket}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 
@@ -150,7 +150,7 @@
         <Tab
             Title="Weekly Planning"
             Icon="{StaticResource icon_fly_ticket}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
     </FlyoutItem>
@@ -163,7 +163,7 @@
         <Tab
             Title="Settings"
             Icon="{StaticResource icon_fly_settings}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 
@@ -171,7 +171,7 @@
         <Tab
             Title="Support"
             Icon="{StaticResource icon_fly_support}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
     </FlyoutItem>

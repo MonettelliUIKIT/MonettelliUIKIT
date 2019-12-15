@@ -18,7 +18,7 @@
         <ProvideDefaultName>true</ProvideDefaultName>
         <CreateInPlace>true</CreateInPlace>  
     </TemplateData>
-    <TemplateContent PreferedSolutionConfiguration="Debug|x86">
+    <TemplateContent>
         <ProjectCollection>
             <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
                 XFMonettelli\MyTemplate.vstemplate

@@ -11,7 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>monettelli.ico</Icon>
+    <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="XFMonettelli.UWP.csproj" File="XFMonettelli.UWP.csproj" ReplaceParameters="true">

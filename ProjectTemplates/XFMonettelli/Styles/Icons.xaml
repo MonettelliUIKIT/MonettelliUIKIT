@@ -200,6 +200,13 @@
         Glyph="{x:Static FontAwesome:CustomFontIcons.icon_location}"
         Size="14"
         Color="#B9BDC5" />
+
+    <FontImageSource
+        x:Key="icon_love"
+        FontFamily="{StaticResource MaterialFontIcons}"
+        Glyph="{x:Static FontAwesome:FontIcons.Heart}"
+        Size="30"
+        Color="#EC2143" />
     <!--#endregion-->
 
 </ResourceDictionary>

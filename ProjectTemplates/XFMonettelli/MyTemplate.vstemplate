@@ -41,6 +41,8 @@
           <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml">FlyoutMenuItemTemplate.xaml</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml.cs">FlyoutMenuItemTemplate.xaml.cs</ProjectItem>
         </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml">DefaultPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml.cs">DefaultPage.xaml.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="DemoPage.xaml">DemoPage.xaml</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="DemoPage.xaml.cs">DemoPage.xaml.cs</ProjectItem>
       </Folder>

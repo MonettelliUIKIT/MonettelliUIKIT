@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="$safeprojectname$.Views.DefaultPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="{DynamicResource colBG1}"
+    mc:Ignorable="d">
+
+    <Shell.TitleView>
+        <StackLayout
+            Padding="0,0,50,0"
+            Orientation="Horizontal">
+            <Label
+                Text="Delicious Food"
+                VerticalOptions="CenterAndExpand"
+                CharacterSpacing="2"
+                Style="{StaticResource TxtHeadline6_3}">
+                <Label.HorizontalOptions>
+                    <OnPlatform
+                        x:TypeArguments="LayoutOptions"
+                        iOS="CenterAndExpand"
+                        Android="StartAndExpand" />
+                </Label.HorizontalOptions>
+            </Label>
+        </StackLayout>
+    </Shell.TitleView>
+
+
+    <ContentPage.Content>
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Xamarin.Forms"
+                VerticalOptions="Center"
+                Style="{StaticResource TxtBody2_4}" />
+
+            <Image Source="{StaticResource icon_love}" />
+
+            <Label
+                Text="Clean Style Library!!!"
+                VerticalOptions="Center"
+                Style="{StaticResource TxtBody2_4}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

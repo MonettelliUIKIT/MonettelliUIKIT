@@ -59,6 +59,7 @@
         Grid.Row="1"
         Grid.ColumnSpan="2"
         Text="Daniel Monettelli L."
+        CharacterSpacing="1"
         Style="{StaticResource TxtH6Flyout_1}" />
 
 </Grid>

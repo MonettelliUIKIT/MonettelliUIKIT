@@ -11,7 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>monettelli.ico</Icon>
+    <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="XFMonettelli.iOS.csproj" File="XFMonettelli.iOS.csproj" ReplaceParameters="true">
@@ -67,7 +67,7 @@
             <ProjectItem TargetFileName="Icon1024.png">Icon1024.png</ProjectItem>
           </Folder>
       </Folder>
-      
+
     </Project>
   </TemplateContent>
 </VSTemplate>
