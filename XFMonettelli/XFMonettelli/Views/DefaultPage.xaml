@@ -16,7 +16,7 @@
                 Text="Delicious Food"
                 VerticalOptions="CenterAndExpand"
                 CharacterSpacing="2"
-                Style="{StaticResource TxtHeadline6_3}">
+                Style="{StaticResource TxtHeadline6_1}">
                 <Label.HorizontalOptions>
                     <OnPlatform
                         x:TypeArguments="LayoutOptions"
@@ -37,14 +37,14 @@
             <Label
                 Text="Xamarin.Forms"
                 VerticalOptions="Center"
-                Style="{StaticResource TxtBody2_4}" />
+                Style="{StaticResource TxtBody2_1}" />
 
             <Image Source="{StaticResource icon_love}" />
 
             <Label
                 Text="Clean Style Library!!!"
                 VerticalOptions="Center"
-                Style="{StaticResource TxtBody2_4}" />
+                Style="{StaticResource TxtBody2_1}" />
 
         </StackLayout>
     </ContentPage.Content>
