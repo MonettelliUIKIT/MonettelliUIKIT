@@ -141,66 +141,16 @@
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.FaceAgent}"
         Color="{StaticResource FlyoutColorIcon}" />
+
+    <FontImageSource
+        x:Key="icon_fly_SelectGroup"
+        FontFamily="{StaticResource MaterialFontIcons}"
+        Glyph="{x:Static FontAwesome:FontIcons.SelectGroup}"
+        Color="{StaticResource FlyoutColorIcon}" />
     <!--#endregion-->
 
 
     <!--#region FontImageSource INTERFACES-->
-    <FontImageSource
-        x:Key="icon_filtering"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_filtering}"
-        Size="42"
-        Color="#C7CAD1" />
-
-    <FontImageSource
-        x:Key="icon_star"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_star}"
-        Size="12"
-        Color="#FDC900" />
-
-    <FontImageSource
-        x:Key="icon_pizza"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_pizza}"
-        Size="44"
-        Color="#FE8C01" />
-
-    <FontImageSource
-        x:Key="icon_hamburger"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_hamburger}"
-        Size="44"
-        Color="#5AC7FB" />
-
-    <FontImageSource
-        x:Key="icon_meat"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_meat}"
-        Size="44"
-        Color="#FF2D55" />
-
-    <FontImageSource
-        x:Key="icon_spaguetti"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_spaguetti}"
-        Size="44"
-        Color="#5754D6" />
-
-    <FontImageSource
-        x:Key="icon_bookmark1"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_bookmark1}"
-        Size="23"
-        Color="#B9BDC5" />
-
-    <FontImageSource
-        x:Key="icon_location"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_location}"
-        Size="14"
-        Color="#B9BDC5" />
-
     <FontImageSource
         x:Key="icon_love"
         FontFamily="{StaticResource MaterialFontIcons}"

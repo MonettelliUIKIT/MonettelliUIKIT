@@ -126,9 +126,9 @@
 
     <!--#region FLYOUT SECTOR-->
     <FlyoutItem
-        Title="Main1"
+        Title="Group1"
         FlyoutDisplayOptions="AsMultipleItems"
-        Icon="{StaticResource icon_filtering}">
+        Icon="{StaticResource icon_fly_SelectGroup}">
 
         <!--#region Search-->
         <Tab
@@ -156,7 +156,7 @@
     </FlyoutItem>
 
     <FlyoutItem
-        Title="Main2"
+        Title="Group2"
         FlyoutDisplayOptions="AsMultipleItems">
 
         <!--#region Settings-->
