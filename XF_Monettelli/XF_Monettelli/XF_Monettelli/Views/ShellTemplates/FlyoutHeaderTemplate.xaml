@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid
+    x:Class="XF_Monettelli.Views.ShellTemplates.FlyoutHeaderTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Padding="16,39,16,10"
+    HeightRequest="100"
+    mc:Ignorable="d">
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50" />
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <Grid.RowDefinitions>
+        <RowDefinition Height="50" />
+        <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+
+    <Image
+        Grid.RowSpan="2"
+        Grid.ColumnSpan="2"
+        Margin="-16,-39,-16,-10"
+        Source="img_bgflyout.png"
+        Aspect="AspectFill">
+        <Image.IsVisible>
+            <OnPlatform x:TypeArguments="x:Boolean">
+                <On
+                    Platform="Android, iOS"
+                    Value="False" />
+                <On
+                    Platform="UWP"
+                    Value="True" />
+            </OnPlatform>
+        </Image.IsVisible>
+    </Image>
+
+    <Frame
+        Grid.Row="0"
+        Grid.Column="0"
+        CornerRadius="25"
+        OutlineColor="#FFC5C5C5"
+        HasShadow="False"
+        Visual="Material"
+        HorizontalOptions="Start">
+        <Image
+            Source="img_profile.png"
+            HeightRequest="50"
+            WidthRequest="50"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            Aspect="AspectFill" />
+    </Frame>
+
+
+    <Label
+        Grid.Row="1"
+        Grid.ColumnSpan="2"
+        Text="Daniel Monettelli L."
+        CharacterSpacing="1"
+        Style="{StaticResource TxtH6Flyout_1}" />
+
+</Grid>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XF_Monettelli.Views.DemoPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Delicious Food"
+    BackgroundColor="{DynamicResource colBG1}"
+    mc:Ignorable="d">
+
+
+    <Shell.TitleView>
+        <StackLayout
+            Padding="0,0,10,0"
+            Orientation="Horizontal">
+
+            <Label
+                Text="Delicious Food"
+                VerticalOptions="CenterAndExpand"
+                CharacterSpacing="2"
+                Style="{StaticResource TxtHeadline6_1}">
+                <Label.HorizontalOptions>
+                    <OnPlatform
+                        x:TypeArguments="LayoutOptions"
+                        iOS="CenterAndExpand"
+                        Android="StartAndExpand" />
+                </Label.HorizontalOptions>
+            </Label>
+
+            <Switch
+                Toggled="Switch_Toggled"
+                OnColor="Black"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Visual="Material" />
+
+        </StackLayout>
+    </Shell.TitleView>
+
+
+    <ContentPage.Content>
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Xamarin.Forms"
+                VerticalOptions="Center"
+                Style="{StaticResource TxtBody2_1}" />
+
+            <Image Source="{StaticResource icon_love}" />
+
+            <Label
+                Text="Clean Style Library!!!"
+                VerticalOptions="Center"
+                Style="{StaticResource TxtBody2_1}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
