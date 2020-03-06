@@ -5,10 +5,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:theme="clr-namespace:XF_Monettelli.Themes"
     mc:Ignorable="d">
 
     <Application.Resources>
-        <ResourceDictionary Source="/Styles/Themes/WhiteTheme.xaml" />
+        <!--Con theme intellisence no funciona -->
+        <!--<theme:LightTheme />-->
+        <!--Con ResourceDictionary intellisence si funciona -->
+        <ResourceDictionary Source="/Themes/LightTheme.xaml"/>
     </Application.Resources>
 
 </Application>

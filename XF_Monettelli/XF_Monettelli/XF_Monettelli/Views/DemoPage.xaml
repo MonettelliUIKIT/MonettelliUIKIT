@@ -6,7 +6,7 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="Delicious Food"
-    BackgroundColor="{DynamicResource colBG1}"
+    BackgroundColor="{DynamicResource colStartBG1}"
     mc:Ignorable="d">
 
 
@@ -18,8 +18,7 @@
             <Label
                 Text="Delicious Food"
                 VerticalOptions="CenterAndExpand"
-                CharacterSpacing="2"
-                Style="{StaticResource TxtHeadline6_1}">
+                CharacterSpacing="2">
                 <Label.HorizontalOptions>
                     <OnPlatform
                         x:TypeArguments="LayoutOptions"
@@ -47,15 +46,13 @@
 
             <Label
                 Text="Xamarin.Forms"
-                VerticalOptions="Center"
-                Style="{StaticResource TxtBody2_1}" />
+                VerticalOptions="Center" />
 
             <Image Source="{StaticResource icon_love}" />
 
             <Label
                 Text="Clean Style Library!!!"
-                VerticalOptions="Center"
-                Style="{StaticResource TxtBody2_1}" />
+                VerticalOptions="Center" />
 
         </StackLayout>
     </ContentPage.Content>

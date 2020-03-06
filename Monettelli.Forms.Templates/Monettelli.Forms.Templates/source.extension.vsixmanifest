@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Monettelli.Forms.Templates" Version="1.0" Language="en-US" Publisher="Daniel Angel Monettelli L." />
+        <Identity Id="Monettelli.Forms.Templates" Version="1.1" Language="en-US" Publisher="Daniel Angel Monettelli L." />
         <DisplayName>Monettelli.Forms.Templates</DisplayName>
         <Description xml:space="preserve">A multiproject template to create applications for iOS, Android and UWP in Xamarin.Forms by implementing the "Clean Style Library" with or without Shell.</Description>
         <License>license.txt</License>

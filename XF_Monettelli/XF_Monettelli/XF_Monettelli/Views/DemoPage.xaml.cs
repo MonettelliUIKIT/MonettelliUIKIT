@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using XF_Monettelli.Styles.Themes;
+using XF_Monettelli.Themes;
 
 namespace XF_Monettelli.Views
 {
@@ -30,7 +30,7 @@ namespace XF_Monettelli.Views
             else
             {
                 Application.Current.Resources.Clear();
-                Application.Current.Resources = new WhiteTheme();
+                Application.Current.Resources = new LightTheme();
             }
         }
     }

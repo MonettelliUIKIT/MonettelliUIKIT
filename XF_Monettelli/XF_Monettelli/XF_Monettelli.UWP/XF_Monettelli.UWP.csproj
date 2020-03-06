@@ -145,9 +145,24 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="SkiaSharp.Views.Forms">
+      <Version>1.68.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.9" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Forms.PancakeView">
+      <Version>1.3.7</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XF_Monettelli\XF_Monettelli.csproj">
@@ -155,7 +170,9 @@
       <Name>XF_Monettelli</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-Bold.ttf" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\FontIcons\CustomIconFont.ttf" />
   </ItemGroup>
@@ -206,6 +223,57 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\FontsFamily\BebasNeue-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-BoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-ExtraBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-ExtraBoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-ExtraLight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-ExtraLightItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-Italic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-Light.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-LightItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-Medium.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-MediumItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-SemiBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-SemiBoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-Thin.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-ThinItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-Black.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\Poppins-BlackItalic.ttf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

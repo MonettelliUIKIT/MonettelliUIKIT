@@ -13,7 +13,7 @@ namespace XF_Monettelli
             InitializeComponent();
 
             MainPage = new AppShell();
-            //MainPage = new DemoPage();
+            //MainPage = new DefaultPage();
         }
 
         protected override void OnStart()

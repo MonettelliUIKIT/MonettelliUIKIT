@@ -90,6 +90,153 @@
     <!--#endregion-->
 
 
+    <!--#region FONTSFAMILY [Poppins]-->
+    <!--#region Black-->
+    <OnPlatform x:Key="BlackFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-Black.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-Black" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-Black.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region BlackItalic-->
+    <OnPlatform x:Key="BlackItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-BlackItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-BlackItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-BlackItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region Bold-->
+    <OnPlatform x:Key="BoldFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-Bold.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-Bold" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-Bold.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region BoldItalic-->
+    <OnPlatform x:Key="BoldItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-BoldItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-BoldItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-BoldItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region ExtraBold-->
+    <OnPlatform x:Key="ExtraBoldFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-ExtraBold.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-ExtraBold" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-ExtraBold.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region ExtraBoldItalic-->
+    <OnPlatform x:Key="ExtraBoldItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-ExtraBoldItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-ExtraBoldItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-ExtraBoldItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region ExtraLight-->
+    <OnPlatform x:Key="ExtraLightFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-ExtraLight.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-ExtraLight" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-ExtraLight.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region ExtraLightItalic-->
+    <OnPlatform x:Key="ExtraLightItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-ExtraLightItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-ExtraLightItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-ExtraLightItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region Italic-->
+    <OnPlatform x:Key="ItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-Italic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-Italic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-Italic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region Light-->
+    <OnPlatform x:Key="LightFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-Light.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-Light" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-Light.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region LightItalic-->
+    <OnPlatform x:Key="LightItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-LightItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-LightItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-LightItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region Medium-->
+    <OnPlatform x:Key="MediumFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-Medium.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-Medium" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-Medium.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region MediumItalic-->
+    <OnPlatform x:Key="MediumItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-MediumItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-MediumItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-MediumItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region Regular-->
+    <OnPlatform x:Key="RegularFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-Regular.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-Regular" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-Regular.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region SemiBold-->
+    <OnPlatform x:Key="SemiBoldFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-SemiBold.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-SemiBold" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-SemiBold.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region SemiBoldItalic-->
+    <OnPlatform x:Key="SemiBoldItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-SemiBoldItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-SemiBoldItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-SemiBoldItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region Thin-->
+    <OnPlatform x:Key="ThinFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-Thin.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-Thin" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-Thin.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+
+    <!--#region ThinItalic-->
+    <OnPlatform x:Key="ThinItalicFont_Poppins" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/Poppins-ThinItalic.ttf#Poppins" />
+        <On Platform="iOS" Value="Poppins-ThinItalic" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/Poppins-ThinItalic.ttf#Poppins" />
+    </OnPlatform>
+    <!--#endregion-->
+    <!--#endregion-->
+    
+
     <!--#region FONTSFAMILY [BebasNeue]-->
     <!--#region Bold-->
     <OnPlatform x:Key="BoldFont_BebasNeue" x:TypeArguments="x:String">
@@ -98,7 +245,23 @@
         <On Platform="UWP" Value="/Assets/FontsFamily/BebasNeue-Bold.ttf#Bebas Neue" />
     </OnPlatform>
     <!--#endregion-->
-
+    
+    <!--#region Book-->
+    <OnPlatform x:Key="BookFont_BebasNeue" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/BebasNeue-Book.ttf#Bebas Neue" />
+        <On Platform="iOS" Value="BebasNeue-Book" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/BebasNeue-Book.ttf#Bebas Neue" />
+    </OnPlatform>
+    <!--#endregion-->
+    
+    <!--#region Thin-->
+    <OnPlatform x:Key="ThinFont_BebasNeue" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/BebasNeue-Thin.ttf#Bebas Neue" />
+        <On Platform="iOS" Value="BebasNeue-Thin" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/BebasNeue-Thin.ttf#Bebas Neue" />
+    </OnPlatform>
+    <!--#endregion-->
+    
     <!--#region Regular-->
     <OnPlatform x:Key="RegularFont_BebasNeue" x:TypeArguments="x:String">
         <On Platform="Android" Value="FontsFamily/BebasNeue-Regular.ttf#Bebas Neue" />
@@ -106,11 +269,18 @@
         <On Platform="UWP" Value="/Assets/FontsFamily/BebasNeue-Regular.ttf#Bebas Neue" />
     </OnPlatform>
     <!--#endregion-->
+
+    <!--#region Light-->
+    <OnPlatform x:Key="LightFont_BebasNeue" x:TypeArguments="x:String">
+        <On Platform="Android" Value="FontsFamily/BebasNeue-Light.ttf#Bebas Neue" />
+        <On Platform="iOS" Value="BebasNeue-Light" />
+        <On Platform="UWP" Value="/Assets/FontsFamily/BebasNeue-Light.ttf#Bebas Neue" />
+    </OnPlatform>
+    <!--#endregion-->
     <!--#endregion-->
 
 
     <!--#region TEXT SIZE [MATERIAL DESIGN]-->
-    <!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
     <!--  H1-Light  -->
     <x:Double x:Key="TxtSizeH1_96">96</x:Double>
     <!--  H2-Light  -->
@@ -140,137 +310,5 @@
     <!--  Overline-Regular  -->
     <x:Double x:Key="TxtSizeOver_10">10</x:Double>
     <!--#endregion-->
-
-
-    <!--#region STYLES TEXT FLYOUT-->
-    <!--#region Headline5-->
-    <Style x:Key="TxtH5Flyout_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH5_24}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_BebasNeue}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region Headline6-->
-    <Style x:Key="TxtH6Flyout_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_BebasNeue}" />
-    </Style>
-    <!--#endregion-->
-    <!--#endregion-->
-
-
-    <!--#region STYLES TEXT-->
-    <!--#region Headline1-->
-    <Style x:Key="TxtHeadline1_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH1_96}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
     
-    <!--#region Headline2-->
-    <Style x:Key="TxtHeadline2_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH2_60}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-    
-    <!--#region Headline3-->
-    <Style x:Key="TxtHeadline3_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH3_48}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-    
-    <!--#region Headline4-->
-    <Style x:Key="TxtHeadline4_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH4_34}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region Headline5-->
-    <Style x:Key="TxtHeadline5_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeH5_24}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region Headline6-->
-    <Style x:Key="TxtHeadline6_1" TargetType="Label" BasedOn="{StaticResource TxtH6Flyout_1}"/>
-    <!--#endregion-->
-
-    <!--#region Title-->
-    <Style x:Key="TxtTitle_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region SubTitle1-->
-    <Style x:Key="TxtSubTit1_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeSubTit1_16}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region SubTitle2-->
-    <Style x:Key="TxtSubTit2_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colTer}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeSubTit2_14}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region Body1-->
-    <Style x:Key="TxtBody1_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeBod1_16}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-    
-    <!--#region Body2-->
-    <Style x:Key="TxtBody2_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeBod2_14}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region Button-->
-    <Style x:Key="Button_1" TargetType="Button">
-        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
-        <Setter Property="BackgroundColor" Value="{DynamicResource colPrim}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeBtn_14}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region Caption-->
-    <Style x:Key="TxtCaption_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeCap_12}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-
-    <!--#region Overline-->
-    <Style x:Key="TxtOverline_1" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeOver_10}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_OpenSans}" />
-    </Style>
-    <!--#endregion-->
-    <!--#endregion-->
-
 </ResourceDictionary>

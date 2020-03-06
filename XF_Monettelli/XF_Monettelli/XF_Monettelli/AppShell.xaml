@@ -8,9 +8,9 @@
     xmlns:ShellTemplate="clr-namespace:XF_Monettelli.Views.ShellTemplates"
     xmlns:view="clr-namespace:XF_Monettelli.Views"
     xmlns:FontAwesome="clr-namespace:XF_Monettelli.Styles;assembly=XF_Monettelli"
-    Title="Delicious Food"
-    FlyoutBackgroundImage="img_bgflyout.png"
-    FlyoutBackgroundImageAspect="AspectFill"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    Title="Monettelli.Forms.Templates"
+    FlyoutBackgroundColor="{DynamicResource colStartBG1}"
     FlyoutIcon="{StaticResource icon_fly_main}"
     FlyoutBehavior="Flyout"
     FlyoutHeaderTemplate="{DataTemplate ShellTemplate:FlyoutHeaderTemplate}"
@@ -19,7 +19,6 @@
     MenuItemTemplate="{DataTemplate ShellTemplate:FlyoutMenuItemTemplate}"
     Visual="Default"
     mc:Ignorable="d">
-
 
     <!--#region CHANGED FLYOUT ICON-->
     <!--<Shell.FlyoutIcon>
@@ -34,20 +33,20 @@
     <Shell.Resources>
         
         <!--#region SHELL STYLES-->
-        <Color x:Key="NavigationPrimary">#2196F3</Color>
+        <Color x:Key="NavigationPrimary">#FF1597</Color>
         
         <Style x:Key="BaseStyle" TargetType="Element">
-            <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
+            <Setter Property="Shell.BackgroundColor" Value="{DynamicResource colTabBarBack}" />
             <!--  In iOS, this property changes the color of the FlyoutIcon and the selected top tabs  -->
             <Setter Property="Shell.ForegroundColor" Value="White" />
             <Setter Property="Shell.TitleColor" Value="White" />
             <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
             <!--  In iOS this property changes the color tabs upper not selected  -->
             <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-            <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+            <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource colTabBarBack}" />
             <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-            <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-            <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+            <Setter Property="Shell.TabBarUnselectedColor" Value="{DynamicResource colTabBarUns}"/>
+            <Setter Property="Shell.TabBarTitleColor" Value="{DynamicResource colTabBarTitle}"/>
         </Style>
         <!--#endregion-->
         
@@ -88,7 +87,7 @@
         <Tab
             Title="Explore"
             Icon="{StaticResource icon_tab_explore}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:ProfileSportPage}" />
         </Tab>
         <!--#endregion-->
 
@@ -161,7 +160,7 @@
 
         <!--#region Settings-->
         <Tab
-            Title="Settings"
+            Title="Themes"
             Icon="{StaticResource icon_fly_settings}">
             <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>

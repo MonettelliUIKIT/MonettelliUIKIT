@@ -22,6 +22,7 @@
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
+      
       <Folder Name="Resources" TargetFolderName="Resources">
         <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>

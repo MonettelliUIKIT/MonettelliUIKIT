@@ -1,25 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Grid
+<yummy:PancakeView
     x:Class="XF_Monettelli.Views.ShellTemplates.FlyoutHeaderTemplate"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Padding="16,39,16,10"
-    HeightRequest="100"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    Padding="0"
+    yummy:BackgroundGradientStartColor="{DynamicResource colStartSurf3}"
+    yummy:BackgroundGradientEndColor="{DynamicResource colEndSurf3}"
+    yummy:BackgroundGradientAngle="120"
+    HeightRequest="152"
+    HasShadow="False"
     mc:Ignorable="d">
 
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="50" />
-        <ColumnDefinition Width="*" />
-    </Grid.ColumnDefinitions>
-
-    <Grid.RowDefinitions>
-        <RowDefinition Height="50" />
-        <RowDefinition Height="Auto" />
-    </Grid.RowDefinitions>
-
-    <Image
+    <!--<Image
         Grid.RowSpan="2"
         Grid.ColumnSpan="2"
         Margin="-16,-39,-16,-10"
@@ -35,31 +32,87 @@
                     Value="True" />
             </OnPlatform>
         </Image.IsVisible>
-    </Image>
+    </Image>-->
 
-    <Frame
-        Grid.Row="0"
-        Grid.Column="0"
-        CornerRadius="25"
-        OutlineColor="#FFC5C5C5"
-        HasShadow="False"
-        Visual="Material"
-        HorizontalOptions="Start">
-        <Image
-            Source="img_profile.png"
-            HeightRequest="50"
-            WidthRequest="50"
-            VerticalOptions="Center"
-            HorizontalOptions="Start"
-            Aspect="AspectFill" />
-    </Frame>
+    <yummy:PancakeView.Resources>
+        <ResourceDictionary Source="Styles.xaml" />
+    </yummy:PancakeView.Resources>
 
 
-    <Label
-        Grid.Row="1"
-        Grid.ColumnSpan="2"
-        Text="Daniel Monettelli L."
-        CharacterSpacing="1"
-        Style="{StaticResource TxtH6Flyout_1}" />
+    <Grid
+        Padding="16,30,16,0"
+        RowSpacing="7">
 
-</Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <yummy:PancakeView
+            Grid.Row="0"
+            Grid.Column="0"
+            CornerRadius="60"
+            BorderColor="{DynamicResource colPrim}"
+            BorderThickness="3"
+            HasShadow="False"
+            HorizontalOptions="Start">
+            <ff:CachedImage
+                Source="img_profile.png"
+                BitmapOptimizations="True"
+                LoadingPlaceholder="Logo"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"
+                Aspect="AspectFill" />
+        </yummy:PancakeView>
+
+        <StackLayout
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Spacing="-6">
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Text="Daniel Monettelli L.">
+                <Label.Style>
+                    <OnPlatform x:TypeArguments="Style">
+                        <On
+                            Platform="Android"
+                            Value="{StaticResource TxtH6Flyout_1}" />
+                        <On
+                            Platform="iOS"
+                            Value="{StaticResource TxtH6Flyout_3}" />
+                    </OnPlatform>
+                </Label.Style>
+            </Label>
+
+            <Label
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                CharacterSpacing="0.5"
+                Text="Xamarin Mobile Developer">
+                <Label.Style>
+                    <OnPlatform x:TypeArguments="Style">
+                        <On
+                            Platform="Android"
+                            Value="{StaticResource TxtSubTit2Flyout_1}" />
+                        <On
+                            Platform="iOS"
+                            Value="{StaticResource TxtSubTit2Flyout_2}" />
+                    </OnPlatform>
+                </Label.Style>
+            </Label>
+        </StackLayout>
+        
+    </Grid>
+
+</yummy:PancakeView>

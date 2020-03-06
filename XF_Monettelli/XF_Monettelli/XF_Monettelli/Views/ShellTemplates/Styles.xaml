@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XF_Monettelli.Views.ShellTemplates.Styles">
+
+    <!--#region STYLES TEXT FLYOUT-->
+    <!--#region Headline6-->
+    <Style x:Key="TxtH6Flyout_1" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
+        <Setter Property="FontFamily" Value="{StaticResource BoldFont_Poppins}" />
+    </Style>
+
+    <Style x:Key="TxtH6Flyout_2" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
+        <Setter Property="FontFamily" Value="{StaticResource MediumFont_Poppins}" />
+    </Style>
+
+    <Style x:Key="TxtH6Flyout_3" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
+        <Setter Property="FontFamily" Value="{StaticResource BoldFont_Poppins}" />
+    </Style>
+    <!--#endregion-->
+
+    <!--#region Caption-->
+    <Style x:Key="TxtSubTit2Flyout_1" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeCap_12}" />
+        <Setter Property="FontFamily" Value="{StaticResource ItalicFont_Poppins}" />
+    </Style>
+
+    <Style x:Key="TxtSubTit2Flyout_2" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeCap_12}" />
+        <Setter Property="FontFamily" Value="{StaticResource ItalicFont_Poppins}" />
+    </Style>
+    <!--#endregion-->
+    <!--#endregion-->
+
+</ResourceDictionary>

@@ -102,51 +102,51 @@
         x:Key="icon_fly_main"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.FormatListBulletedSquare}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
     <!--#endregion-->
 
     <FontImageSource
         x:Key="icon_fly_home"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.Home}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_search"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.Magnify}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_basket"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.Basket}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_ticket"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.TicketConfirmation}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_settings"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.Settings}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
 
 
     <FontImageSource
         x:Key="icon_fly_support"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.FaceAgent}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_SelectGroup"
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:FontIcons.SelectGroup}"
-        Color="{StaticResource FlyoutColorIcon}" />
+        Color="{DynamicResource colQua}" />
     <!--#endregion-->
 
 
