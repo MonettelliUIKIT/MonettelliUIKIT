@@ -102,6 +102,9 @@
     <BundleResource Include="Resources\Poppins-ThinItalic.ttf" />
     <BundleResource Include="Resources\Poppins-Black.ttf" />
     <BundleResource Include="Resources\Poppins-BlackItalic.ttf" />
+    <BundleResource Include="Resources\svg_burn.svg" />
+    <BundleResource Include="Resources\svg_running.svg" />
+    <BundleResource Include="Resources\svg_star_badge.svg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -197,7 +200,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\XF_Monettelli\XF_Monettelli.csproj">
-      <Project>{1CA81EDF-43DD-4202-988C-61EF98F3CB42}</Project>
+      <Project>{3FB89CDA-47CE-4E6A-AA05-BFC63C965843}</Project>
       <Name>XF_Monettelli</Name>
     </ProjectReference>
   </ItemGroup>

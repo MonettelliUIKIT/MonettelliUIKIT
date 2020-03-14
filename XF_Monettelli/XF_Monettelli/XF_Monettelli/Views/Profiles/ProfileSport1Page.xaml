@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+                   xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+                   xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+                   xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+                   BackgroundColor="{DynamicResource colStartBG1}"
+                   x:Class="XF_Monettelli.Views.ProfileSport1Page">
+
+   <Shell.TitleView>
+        <StackLayout
+            Padding="0,0,10,0"
+            Orientation="Horizontal">
+
+            <Label
+                Text="Profile Sport 1"
+                VerticalOptions="CenterAndExpand"
+                CharacterSpacing="2">
+                <Label.Style>
+                    <OnPlatform x:TypeArguments="Style">
+                        <On Platform="Android, UWP" Value="{StaticResource TxtTitle_Android}"/>
+                        <On Platform="iOS" Value="{StaticResource TxtHeadLine6_iOS}"/>
+                    </OnPlatform>
+                </Label.Style>
+                <Label.HorizontalOptions>
+                    <OnPlatform
+                        x:TypeArguments="LayoutOptions"
+                        iOS="EndAndExpand"
+                        Android="StartAndExpand" />
+                </Label.HorizontalOptions>
+            </Label>
+
+            <Switch
+                Toggled="Switch_Toggled"
+                OnColor="Black"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Visual="Material" />
+
+        </StackLayout>
+    </Shell.TitleView>
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary Source="Styles.xaml" />
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+
+        <yummy:PancakeView
+            BackgroundGradientStartColor="{DynamicResource colStartBG1}"
+            BackgroundGradientEndColor="{DynamicResource colEndBG1}">
+
+            <ScrollView Padding="0,0,0,10">
+
+                <Grid
+                    Padding="16,0"
+                    RowSpacing="20"
+                    ColumnSpacing="0">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <yummy:PancakeView
+                        Grid.Row="0"
+                        Margin="-16,0"
+                        Padding="16,6"
+                        BackgroundGradientStartColor="{DynamicResource colEndSurf1}"
+                        BackgroundGradientEndColor="{DynamicResource colStartSurf1}"
+                        BackgroundGradientAngle="55">
+
+                        <StackLayout Spacing="14">
+                            <ff:CachedImage
+                                Source="img_profile.png"
+                                BitmapOptimizations="True"
+                                LoadingPlaceholder="Logo"
+                                CacheDuration="30"
+                                RetryDelay="450"
+                                WidthRequest="80"
+                                HeightRequest="80">
+                                <ff:CachedImage.Transformations>
+                                    <ffTrans:CircleTransformation />
+                                </ff:CachedImage.Transformations>
+                            </ff:CachedImage>
+
+                            <Label
+                                Text="DANIEL MONETTELLI"
+                                Style="{StaticResource TxtHeadLine5}"
+                                HorizontalOptions="CenterAndExpand"
+                                MaxLines="2"
+                                CharacterSpacing="2" />
+
+                            <BoxView
+                                Margin="0,1,0,3"
+                                BackgroundColor="{DynamicResource colTer}"
+                                HeightRequest="1" />
+
+                            <Grid
+                                RowSpacing="0"
+                                ColumnSpacing="27">
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="40" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    Text="RANK"
+                                    Style="{StaticResource TxtOverline}"
+                                    CharacterSpacing="0.91"
+                                    HorizontalOptions="End" />
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    Text="198"
+                                    Style="{StaticResource TxtHeadLine4}"
+                                    CharacterSpacing="1.13"
+                                    HorizontalOptions="End" />
+
+                                <ffSvg:SvgCachedImage
+                                    Grid.Row="0"
+                                    Grid.RowSpan="2"
+                                    Grid.Column="1"
+                                    BitmapOptimizations="True"
+                                    LoadingPlaceholder="Logo"
+                                    CacheDuration="30"
+                                    RetryDelay="450"
+                                    Source="svg_star_badge.svg"
+                                    HeightRequest="40" />
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    Text="POINTS"
+                                    Style="{StaticResource TxtOverline}"
+                                    CharacterSpacing="0.91"
+                                    HorizontalOptions="Start" />
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="2"
+                                    Text="2453"
+                                    Style="{StaticResource TxtHeadLine4}"
+                                    CharacterSpacing="1.13"
+                                    HorizontalOptions="Start" />
+                            </Grid>
+                        </StackLayout>
+                    </yummy:PancakeView>
+
+
+                    <StackLayout
+                        Grid.Row="1"
+                        Spacing="17">
+
+                        <Label
+                            Text="THIS WEEK STATISTIC"
+                            Style="{StaticResource TxtHeadLine6}"
+                            CharacterSpacing="1.82" />
+
+                        <Grid
+                            RowSpacing="0"
+                            ColumnSpacing="15">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="176" />
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+
+                            <yummy:PancakeView
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Padding="0"
+                                CornerRadius="5"
+                                BackgroundGradientStartColor="{DynamicResource colEndSurf1}"
+                                BackgroundGradientEndColor="{DynamicResource colStartSurf1}"
+                                BackgroundGradientAngle="55">
+
+                                <StackLayout
+                                    Margin="10,0"
+                                    VerticalOptions="CenterAndExpand"
+                                    Spacing="0">
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Row="0"
+                                        Grid.RowSpan="2"
+                                        Grid.Column="1"
+                                        Margin="0,0,0,18"
+                                        Source="svg_running.svg"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        HorizontalOptions="CenterAndExpand"
+                                        HeightRequest="48"
+                                        WidthRequest="48" />
+
+                                    <Label
+                                        Text="DISTANCE (KM)"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Style="{StaticResource TxtCaption}"
+                                        CharacterSpacing="1.09" />
+
+                                    <Label
+                                        Text="7.2"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Style="{StaticResource TxtHeadLine4}"
+                                        CharacterSpacing="0.94" />
+                                </StackLayout>
+                            </yummy:PancakeView>
+
+                            <yummy:PancakeView
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                Padding="0"
+                                CornerRadius="5"
+                                BackgroundGradientStartColor="{DynamicResource colEndSurf1}"
+                                BackgroundGradientEndColor="{DynamicResource colStartSurf1}"
+                                BackgroundGradientAngle="55">
+
+                                <StackLayout
+                                    Margin="10,0"
+                                    VerticalOptions="CenterAndExpand"
+                                    Spacing="0">
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Row="0"
+                                        Grid.RowSpan="2"
+                                        Grid.Column="1"
+                                        Margin="0,0,0,18"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        Source="svg_burn.svg"
+                                        HorizontalOptions="CenterAndExpand"
+                                        HeightRequest="48"
+                                        WidthRequest="48" />
+
+                                    <Label
+                                        Text="EST. CALORIES"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Style="{StaticResource TxtCaption}"
+                                        CharacterSpacing="1.09" />
+
+                                    <Label
+                                        Text="615"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Style="{StaticResource TxtHeadLine4}"
+                                        CharacterSpacing="0.94" />
+                                </StackLayout>
+                            </yummy:PancakeView>
+                        </Grid>
+                    </StackLayout>
+
+
+                    <StackLayout
+                        Grid.Row="2"
+                        Spacing="17">
+
+                        <Label
+                            Text="HISTORY"
+                            Style="{StaticResource TxtHeadLine6}"
+                            CharacterSpacing="1.82" />
+
+                        <StackLayout Spacing="10">
+                            <yummy:PancakeView
+                                Padding="20,5"
+                                CornerRadius="5"
+                                BackgroundGradientStartColor="{DynamicResource colEndSurf1}"
+                                BackgroundGradientEndColor="{DynamicResource colStartSurf1}"
+                                BackgroundGradientAngle="55"
+                                HeightRequest="60">
+
+                                <Grid ColumnSpacing="5">
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".39*" />
+                                        <ColumnDefinition Width="24" />
+                                        <ColumnDefinition Width=".29*" />
+                                        <ColumnDefinition Width="24" />
+                                        <ColumnDefinition Width=".22*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label
+                                        Grid.Column="0"
+                                        Text="LAST WEEK"
+                                        MaxLines="2"
+                                        Style="{StaticResource TxtTitle_1}"
+                                        VerticalOptions="Center" />
+
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Column="1"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        Source="svg_running.svg"
+                                        Aspect="AspectFit"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        Grid.Column="2"
+                                        Text="10 KM"
+                                        Style="{StaticResource TxtTitle_2}"
+                                        CharacterSpacing="1"
+                                        VerticalOptions="Center" />
+
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Column="3"
+                                        Source="svg_burn.svg"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        Aspect="AspectFit"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        Grid.Column="4"
+                                        Text="600"
+                                        Style="{StaticResource TxtTitle_2}"
+                                        CharacterSpacing="1"
+                                        VerticalOptions="Center" />
+                                </Grid>
+                            </yummy:PancakeView>
+
+                            <yummy:PancakeView
+                                Padding="20,5"
+                                CornerRadius="5"
+                                BackgroundGradientStartColor="{DynamicResource colEndSurf1}"
+                                BackgroundGradientEndColor="{DynamicResource colStartSurf1}"
+                                BackgroundGradientAngle="55"
+                                HeightRequest="60">
+
+                                <Grid ColumnSpacing="5">
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".39*" />
+                                        <ColumnDefinition Width="24" />
+                                        <ColumnDefinition Width=".29*" />
+                                        <ColumnDefinition Width="24" />
+                                        <ColumnDefinition Width=".22*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label
+                                        Grid.Column="0"
+                                        Text="AUG 19 - AUG 26"
+                                        MaxLines="2"
+                                        Style="{StaticResource TxtTitle_1}"
+                                        VerticalOptions="Center" />
+
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Column="1"
+                                        Source="svg_running.svg"
+                                        Aspect="AspectFit"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        Grid.Column="2"
+                                        Text="30 KM"
+                                        Style="{StaticResource TxtTitle_2}"
+                                        CharacterSpacing="1"
+                                        VerticalOptions="Center" />
+
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Column="3"
+                                        Source="svg_burn.svg"
+                                        Aspect="AspectFit"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        Grid.Column="4"
+                                        Text="1800"
+                                        Style="{StaticResource TxtTitle_2}"
+                                        CharacterSpacing="1"
+                                        VerticalOptions="Center" />
+                                </Grid>
+                            </yummy:PancakeView>
+
+                            <yummy:PancakeView
+                                Padding="20,5"
+                                CornerRadius="5"
+                                BackgroundGradientStartColor="{DynamicResource colEndSurf1}"
+                                BackgroundGradientEndColor="{DynamicResource colStartSurf1}"
+                                BackgroundGradientAngle="55"
+                                HeightRequest="60">
+
+                                <Grid ColumnSpacing="5">
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width=".39*" />
+                                        <ColumnDefinition Width="24" />
+                                        <ColumnDefinition Width=".29*" />
+                                        <ColumnDefinition Width="24" />
+                                        <ColumnDefinition Width=".22*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label
+                                        Grid.Column="0"
+                                        Text="SEP 4 - SEP 18"
+                                        MaxLines="2"
+                                        Style="{StaticResource TxtTitle_1}"
+                                        VerticalOptions="Center" />
+
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Column="1"
+                                        Source="svg_running.svg"
+                                        Aspect="AspectFit"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        Grid.Column="2"
+                                        Text="12 KM"
+                                        Style="{StaticResource TxtTitle_2}"
+                                        CharacterSpacing="1"
+                                        VerticalOptions="Center" />
+
+                                    <ffSvg:SvgCachedImage
+                                        Grid.Column="3"
+                                        Source="svg_burn.svg"
+                                        Aspect="AspectFit"
+                                        BitmapOptimizations="True"
+                                        LoadingPlaceholder="Logo"
+                                        CacheDuration="30"
+                                        RetryDelay="450"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        Grid.Column="4"
+                                        Text="1456"
+                                        Style="{StaticResource TxtTitle_2}"
+                                        CharacterSpacing="1"
+                                        VerticalOptions="Center" />
+                                </Grid>
+                            </yummy:PancakeView>
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </Grid>
+
+            </ScrollView>
+
+        </yummy:PancakeView>
+
+    </ContentPage.Content>
+
+</ContentPage>

@@ -54,6 +54,9 @@
     <Color x:Key="colTabBarUns">#BFBFBF</Color>
     <Color x:Key="colTabBarBack">#121212</Color>
     <Color x:Key="colTabBarTitle">#BB86FC</Color>
+    <Color x:Key="colBackgroundColor">#121212</Color>
+    <Color x:Key="colForegroundColor">#BB86FC</Color>
+    <Color x:Key="colTitleColor">#BB86FC</Color>
     <!--#endregion-->
 
 </ResourceDictionary>

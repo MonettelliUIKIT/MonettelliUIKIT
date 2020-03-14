@@ -8,8 +8,7 @@
     xmlns:ShellTemplate="clr-namespace:XF_Monettelli.Views.ShellTemplates"
     xmlns:view="clr-namespace:XF_Monettelli.Views"
     xmlns:FontAwesome="clr-namespace:XF_Monettelli.Styles;assembly=XF_Monettelli"
-    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-    Title="Monettelli.Forms.Templates"
+    Title="MonettelliUIKit"
     FlyoutBackgroundColor="{DynamicResource colStartBG1}"
     FlyoutIcon="{StaticResource icon_fly_main}"
     FlyoutBehavior="Flyout"
@@ -36,13 +35,13 @@
         <Color x:Key="NavigationPrimary">#FF1597</Color>
         
         <Style x:Key="BaseStyle" TargetType="Element">
-            <Setter Property="Shell.BackgroundColor" Value="{DynamicResource colTabBarBack}" />
+            <Setter Property="Shell.BackgroundColor" Value="{DynamicResource colBackgroundColor}" />
             <!--  In iOS, this property changes the color of the FlyoutIcon and the selected top tabs  -->
-            <Setter Property="Shell.ForegroundColor" Value="White" />
-            <Setter Property="Shell.TitleColor" Value="White" />
-            <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+            <Setter Property="Shell.ForegroundColor" Value="{DynamicResource colForegroundColor}" />
+            <Setter Property="Shell.TitleColor" Value="{DynamicResource colTitleColor}" />
+            <Setter Property="Shell.DisabledColor" Value="White" />
             <!--  In iOS this property changes the color tabs upper not selected  -->
-            <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+            <Setter Property="Shell.UnselectedColor" Value="{DynamicResource colTabBarUns}" />
             <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource colTabBarBack}" />
             <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
             <Setter Property="Shell.TabBarUnselectedColor" Value="{DynamicResource colTabBarUns}"/>
@@ -87,7 +86,7 @@
         <Tab
             Title="Explore"
             Icon="{StaticResource icon_tab_explore}">
-            <ShellContent ContentTemplate="{DataTemplate view:ProfileSportPage}" />
+            <ShellContent ContentTemplate="{DataTemplate view:ProfileSport1Page}" />
         </Tab>
         <!--#endregion-->
 

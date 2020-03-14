@@ -19,12 +19,6 @@
         <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
         <Setter Property="FontFamily" Value="{StaticResource MediumFont_Poppins}" />
     </Style>
-
-    <Style x:Key="TxtH6Flyout_3" TargetType="Label">
-        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
-        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_Poppins}" />
-    </Style>
     <!--#endregion-->
 
     <!--#region Caption-->

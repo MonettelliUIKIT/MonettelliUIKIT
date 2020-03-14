@@ -16,7 +16,7 @@
             Orientation="Horizontal">
 
             <Label
-                Text="Delicious Food"
+                Text="Demo Page"
                 VerticalOptions="CenterAndExpand"
                 CharacterSpacing="2">
                 <Label.HorizontalOptions>

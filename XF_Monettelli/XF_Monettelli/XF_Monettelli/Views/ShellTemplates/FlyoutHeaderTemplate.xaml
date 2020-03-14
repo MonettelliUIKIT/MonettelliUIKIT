@@ -58,7 +58,7 @@
         <yummy:PancakeView
             Grid.Row="0"
             Grid.Column="0"
-            CornerRadius="60"
+            CornerRadius="30"
             BorderColor="{DynamicResource colPrim}"
             BorderThickness="3"
             HasShadow="False"
@@ -81,36 +81,16 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"
-                Text="Daniel Monettelli L.">
-                <Label.Style>
-                    <OnPlatform x:TypeArguments="Style">
-                        <On
-                            Platform="Android"
-                            Value="{StaticResource TxtH6Flyout_1}" />
-                        <On
-                            Platform="iOS"
-                            Value="{StaticResource TxtH6Flyout_3}" />
-                    </OnPlatform>
-                </Label.Style>
-            </Label>
+                Text="Daniel Monettelli L."
+                Style="{StaticResource TxtH6Flyout_1}" />
 
             <Label
                 Grid.Row="2"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"
                 CharacterSpacing="0.5"
-                Text="Xamarin Mobile Developer">
-                <Label.Style>
-                    <OnPlatform x:TypeArguments="Style">
-                        <On
-                            Platform="Android"
-                            Value="{StaticResource TxtSubTit2Flyout_1}" />
-                        <On
-                            Platform="iOS"
-                            Value="{StaticResource TxtSubTit2Flyout_2}" />
-                    </OnPlatform>
-                </Label.Style>
-            </Label>
+                Text="Xamarin Mobile Developer"
+                Style="{StaticResource TxtSubTit2Flyout_1}" />
         </StackLayout>
         
     </Grid>
