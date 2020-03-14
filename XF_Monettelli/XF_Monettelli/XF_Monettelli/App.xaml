@@ -9,9 +9,10 @@
     mc:Ignorable="d">
 
     <Application.Resources>
-        <!--Con theme intellisence no funciona -->
+        <!-- With "theme" namespace intellisense does not work -->
         <!--<theme:LightTheme />-->
-        <!--Con ResourceDictionary intellisence si funciona -->
+        
+        <!-- With "ResourceDictionary" intellisence if it works -->
         <ResourceDictionary Source="/Themes/LightTheme.xaml"/>
     </Application.Resources>
 

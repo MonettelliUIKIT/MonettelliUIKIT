@@ -26,6 +26,6 @@
         Grid.Column="1"
         Text="{Binding Text}"
         VerticalTextAlignment="Center"
-        Style="{StaticResource TxtH6Flyout_1}"/>
+        Style="{StaticResource TxtH6Flyout_2}"/>
 
 </Grid>

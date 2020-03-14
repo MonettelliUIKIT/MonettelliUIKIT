@@ -204,22 +204,4 @@
       <Name>XF_Monettelli</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_bgflyout.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_bgflyout%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_bgflyout%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_profile%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_profile%403x.png" />
-  </ItemGroup>
 </Project>

@@ -46,6 +46,14 @@
   <ItemGroup>
     <EmbeddedResource Remove="Views\Profile\ProfileSportPage.xaml" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\img_profile.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\img_profile.png" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="AppShell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -95,20 +103,5 @@
     <EmbeddedResource Update="Views\ShellTemplates\Styles.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Images\img_building1.png" />
-    <None Remove="Images\img_building10.png" />
-    <None Remove="Images\img_building11.png" />
-    <None Remove="Images\img_building2.png" />
-    <None Remove="Images\img_building3.png" />
-    <None Remove="Images\img_building4.png" />
-    <None Remove="Images\img_building5.png" />
-    <None Remove="Images\img_building6.png" />
-    <None Remove="Images\img_building7.png" />
-    <None Remove="Images\img_building8.png" />
-    <None Remove="Images\img_building9.png" />
-    <None Remove="Images\img_floatingButton.png" />
-    <None Remove="Images\img_profile.png" />
   </ItemGroup>
 </Project>

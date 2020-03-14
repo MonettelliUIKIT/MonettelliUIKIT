@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace XF_Monettelli.Styles
+namespace XF_Monettelli.CodeFontIcons
 {
     static class CustomFontIcons
     {

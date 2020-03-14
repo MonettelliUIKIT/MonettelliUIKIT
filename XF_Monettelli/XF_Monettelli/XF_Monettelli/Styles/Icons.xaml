@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:FontAwesome="clr-namespace:XF_Monettelli.Styles;assembly=XF_Monettelli"
+    xmlns:FontAwesome="clr-namespace:XF_Monettelli.CodeFontIcons;assembly=XF_Monettelli"
     mc:Ignorable="d">
 
     <!--#region MATERIAL FONT ICONS-->
@@ -39,9 +39,9 @@
     <!--#region PLATFORMS OPTIONAL-->
     <!--#region PLATFORMS CHANGE ICONS FONT FOR Glyph-->
     <OnPlatform x:Key="OnStringIcon" x:TypeArguments="x:String">
-        <On Platform="Android" Value="{x:Static FontAwesome:FontIcons.AccessPoint}" />
-        <On Platform="iOS" Value="{x:Static FontAwesome:FontIcons.Cached}" />
-        <On Platform="UWP" Value="{x:Static FontAwesome:FontIcons.AccountCardDetails}" />
+        <On Platform="Android" Value="{x:Static FontAwesome:MaterialFontIcons.AccessPoint}" />
+        <On Platform="iOS" Value="{x:Static FontAwesome:MaterialFontIcons.Cached}" />
+        <On Platform="UWP" Value="{x:Static FontAwesome:MaterialFontIcons.AccountCardDetails}" />
     </OnPlatform>
     <!--#endregion-->
 
@@ -50,6 +50,12 @@
         <On Platform="Android" Value="#17D47E" />
         <On Platform="iOS" Value="#EA29E2" />
         <On Platform="UWP" Value="#8DFF2D" />
+    </OnPlatform>
+
+    <OnPlatform x:Key="OnColorIconFlyout" x:TypeArguments="Color">
+        <On Platform="Android" Value="{DynamicResource colQua}" />
+        <On Platform="iOS" Value="{DynamicResource colQua}" />
+        <On Platform="UWP" Value="#121212" />
     </OnPlatform>
     <!--#endregion-->
 
@@ -101,51 +107,51 @@
     <FontImageSource
         x:Key="icon_fly_main"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.FormatListBulletedSquare}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.FormatListBulletedSquare}"
         Color="{DynamicResource colQua}" />
     <!--#endregion-->
 
     <FontImageSource
         x:Key="icon_fly_home"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.Home}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.Home}"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_search"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.Magnify}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.Magnify}"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_basket"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.Basket}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.Basket}"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_ticket"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.TicketConfirmation}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.TicketConfirmation}"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_settings"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.Settings}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.Settings}"
         Color="{DynamicResource colQua}" />
 
 
     <FontImageSource
         x:Key="icon_fly_support"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.FaceAgent}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.FaceAgent}"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
         x:Key="icon_fly_SelectGroup"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.SelectGroup}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.SelectGroup}"
         Color="{DynamicResource colQua}" />
     <!--#endregion-->
 
@@ -154,7 +160,7 @@
     <FontImageSource
         x:Key="icon_love"
         FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:FontIcons.Heart}"
+        Glyph="{x:Static FontAwesome:MaterialFontIcons.Heart}"
         Size="30"
         Color="#EC2143" />
     <!--#endregion-->

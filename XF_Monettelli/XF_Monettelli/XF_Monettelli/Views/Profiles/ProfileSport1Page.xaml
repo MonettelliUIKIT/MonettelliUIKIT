@@ -1,14 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                   xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-                   xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-                   xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-                   xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
-                   BackgroundColor="{DynamicResource colStartBG1}"
-                   x:Class="XF_Monettelli.Views.ProfileSport1Page">
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="XF_Monettelli.Views.ProfileSport1Page"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:MarkupExtension="clr-namespace:XF_Monettelli.MarkupExtension;assembly=XF_Monettelli"
+    xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    BackgroundColor="{DynamicResource colStartBG1}">
 
-   <Shell.TitleView>
+    <Shell.TitleView>
         <StackLayout
             Padding="0,0,10,0"
             Orientation="Horizontal">
@@ -19,8 +21,12 @@
                 CharacterSpacing="2">
                 <Label.Style>
                     <OnPlatform x:TypeArguments="Style">
-                        <On Platform="Android, UWP" Value="{StaticResource TxtTitle_Android}"/>
-                        <On Platform="iOS" Value="{StaticResource TxtHeadLine6_iOS}"/>
+                        <On
+                            Platform="Android, UWP"
+                            Value="{StaticResource TxtTitle_Android}" />
+                        <On
+                            Platform="iOS"
+                            Value="{StaticResource TxtHeadLine6_iOS}" />
                     </OnPlatform>
                 </Label.Style>
                 <Label.HorizontalOptions>
@@ -74,9 +80,22 @@
                         BackgroundGradientEndColor="{DynamicResource colStartSurf1}"
                         BackgroundGradientAngle="55">
 
+                        <!--  USE WITHOUT SHELL  -->
+                        <!--<yummy:PancakeView.Padding>
+                            <OnPlatform x:TypeArguments="Thickness">
+                                <On
+                                    Platform="Android, UWP"
+                                    Value="16,6" />
+                                <On
+                                    Platform="iOS"
+                                    Value="16,40,16,6" />
+                            </OnPlatform>
+                        </yummy:PancakeView.Padding>-->
+
+
                         <StackLayout Spacing="14">
                             <ff:CachedImage
-                                Source="img_profile.png"
+                                Source="{MarkupExtension:EmbeddedImage XF_Monettelli.Images.img_profile.png}"
                                 BitmapOptimizations="True"
                                 LoadingPlaceholder="Logo"
                                 CacheDuration="30"

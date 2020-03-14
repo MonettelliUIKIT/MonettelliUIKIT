@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:MarkupExtension="clr-namespace:XF_Monettelli.MarkupExtension;assembly=XF_Monettelli"
     xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
@@ -16,23 +17,6 @@
     HasShadow="False"
     mc:Ignorable="d">
 
-    <!--<Image
-        Grid.RowSpan="2"
-        Grid.ColumnSpan="2"
-        Margin="-16,-39,-16,-10"
-        Source="img_bgflyout.png"
-        Aspect="AspectFill">
-        <Image.IsVisible>
-            <OnPlatform x:TypeArguments="x:Boolean">
-                <On
-                    Platform="Android, iOS"
-                    Value="False" />
-                <On
-                    Platform="UWP"
-                    Value="True" />
-            </OnPlatform>
-        </Image.IsVisible>
-    </Image>-->
 
     <yummy:PancakeView.Resources>
         <ResourceDictionary Source="Styles.xaml" />
@@ -64,7 +48,7 @@
             HasShadow="False"
             HorizontalOptions="Start">
             <ff:CachedImage
-                Source="img_profile.png"
+                Source="{MarkupExtension:EmbeddedImage XF_Monettelli.Images.img_profile.png}"
                 BitmapOptimizations="True"
                 LoadingPlaceholder="Logo"
                 VerticalOptions="Center"
@@ -92,7 +76,7 @@
                 Text="Xamarin Mobile Developer"
                 Style="{StaticResource TxtSubTit2Flyout_1}" />
         </StackLayout>
-        
+
     </Grid>
 
 </yummy:PancakeView>
