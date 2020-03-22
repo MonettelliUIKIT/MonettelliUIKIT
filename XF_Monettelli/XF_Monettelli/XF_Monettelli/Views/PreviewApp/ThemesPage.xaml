@@ -20,9 +20,7 @@
 
 
     <Shell.TitleView>
-        <StackLayout
-            Padding="0,0,10,0"
-            Orientation="Horizontal">
+        <StackLayout Padding="0,0,50,0">
 
             <Label
                 CharacterSpacing="2"

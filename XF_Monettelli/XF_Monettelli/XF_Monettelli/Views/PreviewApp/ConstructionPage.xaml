@@ -18,13 +18,13 @@
 
     <Shell.TitleView>
         <StackLayout
-            Padding="0,0,10,0"
-            Orientation="Horizontal">
+            Padding="0,0,50,0">
 
             <Label
                 CharacterSpacing="2"
                 Text="Under Construction"
-                VerticalOptions="CenterAndExpand">
+                VerticalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center">
                 <Label.Style>
                     <OnPlatform x:TypeArguments="Style">
                         <On

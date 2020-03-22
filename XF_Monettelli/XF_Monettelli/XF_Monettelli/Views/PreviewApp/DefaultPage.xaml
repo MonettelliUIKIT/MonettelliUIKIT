@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     BackgroundColor="{DynamicResource colStartBG1}"
     mc:Ignorable="d"
-    Shell.NavBarIsVisible="False">
+    Shell.NavBarIsVisible="True">
 
 
     <ContentPage.Resources>
@@ -17,8 +17,7 @@
 
     <Shell.TitleView>
         <StackLayout
-            Padding="0,0,50,0"
-            Orientation="Horizontal">
+            Padding="0,0,50,0">
             <Label
                 Text="MonettelliUIKit"
                 VerticalOptions="CenterAndExpand"
@@ -36,8 +35,8 @@
                 <Label.HorizontalOptions>
                     <OnPlatform
                         x:TypeArguments="LayoutOptions"
-                        iOS="CenterAndExpand"
-                        Android="StartAndExpand" />
+                        Android="StartAndExpand"
+                        iOS="CenterAndExpand" />
                 </Label.HorizontalOptions>
             </Label>
         </StackLayout>
