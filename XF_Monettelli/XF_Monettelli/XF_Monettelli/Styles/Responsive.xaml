@@ -71,7 +71,6 @@
     <Style TargetType="Frame">
         <Setter Property="Padding" Value="0" />
     </Style>
-   
     <!--#endregion-->
 
     

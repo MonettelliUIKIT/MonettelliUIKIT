@@ -33,7 +33,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_Poppins}" />
+        <Setter Property="FontFamily" Value="{StaticResource BoldFont_SourceSansPro}" />
     </Style>
 
     <Style
@@ -41,7 +41,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colQua}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
-        <Setter Property="FontFamily" Value="{StaticResource ExtraBoldFont_Poppins}" />
+        <Setter Property="FontFamily" Value="{StaticResource BlackFont_SourceSansPro}" />
     </Style>
     <!--#endregion-->
 
@@ -51,7 +51,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_Poppins}" />
+        <Setter Property="FontFamily" Value="{StaticResource BoldFont_SourceSansPro}" />
     </Style>
 
     <Style
@@ -85,7 +85,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colTer}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeCap_12}" />
-        <Setter Property="FontFamily" Value="{StaticResource SemiBoldFont_Poppins}" />
+        <Setter Property="FontFamily" Value="{StaticResource SemiBoldFont_SourceSansPro}" />
     </Style>
     <!--#endregion-->
 
@@ -95,7 +95,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colTer}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeOver_10}" />
-        <Setter Property="FontFamily" Value="{StaticResource SemiBoldFont_Poppins}" />
+        <Setter Property="FontFamily" Value="{StaticResource SemiBoldFont_SourceSansPro}" />
     </Style>
     <!--#endregion-->
 

@@ -5,6 +5,7 @@ using FFImageLoading;
 using FFImageLoading.Forms.Platform;
 using FFImageLoading.Svg.Forms;
 using Foundation;
+using Lottie.Forms.iOS.Renderers;
 using UIKit;
 
 namespace XF_Monettelli.iOS
@@ -31,6 +32,11 @@ namespace XF_Monettelli.iOS
             // ADD Init() Material Visual
             // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
             global::Xamarin.Forms.FormsMaterial.Init();
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            // ADD Init() Lottie in iOS
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            AnimationViewRenderer.Init();
             // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
             // SECTOR1 FFImageLoading

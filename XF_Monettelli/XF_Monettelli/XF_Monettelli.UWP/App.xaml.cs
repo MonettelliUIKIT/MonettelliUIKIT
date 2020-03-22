@@ -1,4 +1,5 @@
 ﻿using FFImageLoading.Forms.Platform;
+using Lottie.Forms.UWP.Renderers;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -53,7 +54,7 @@ namespace XF_Monettelli.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
                 // SECTOR1 FFImageLoading
-                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                 CachedImageRenderer.Init();
                 var config = new FFImageLoading.Config.Configuration()
                 {
@@ -63,17 +64,22 @@ namespace XF_Monettelli.UWP
                     VerboseLoadingCancelledLogging = false,
                 };
                 FFImageLoading.ImageService.Instance.Initialize(config);
-                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                 List<Assembly> assembliesToInclude = new List<Assembly>();
                 // SECTOR2 FFImageLoading
-                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                 assembliesToInclude.Add(typeof(CachedImageRenderer).GetTypeInfo().Assembly);
-                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
                 // SECTOR1 PancakeView
-                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                 assembliesToInclude.Add(typeof(PancakeViewRenderer).GetTypeInfo().Assembly);
-                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                // SECTOR1 LOTTIE FOR UWP
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                assembliesToInclude.Add(typeof(AnimationViewRenderer).GetTypeInfo().Assembly);
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
                 Xamarin.Forms.Forms.SetFlags("Shell_UWP_Experimental", "Visual_Experimental", "CollectionView_Experimental", "FastRenderers_Experimental");
                 Xamarin.Forms.Forms.Init(e, assembliesToInclude);

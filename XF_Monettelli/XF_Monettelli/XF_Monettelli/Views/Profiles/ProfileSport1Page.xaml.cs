@@ -13,20 +13,8 @@ namespace XF_Monettelli.Views
         public ProfileSport1Page()
         {
             InitializeComponent();
+
         }
 
-        private void Switch_Toggled(object sender, ToggledEventArgs e)
-        {
-            if (e.Value == true)
-            {
-                Application.Current.Resources.Clear();
-                Application.Current.Resources = new InstagramElegantTheme();
-            }
-            else
-            {
-                Application.Current.Resources.Clear();
-                Application.Current.Resources = new InstagramDarkTheme();
-            }
-        }
     }
 }

@@ -10,6 +10,12 @@
     xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
     BackgroundColor="{DynamicResource colStartBG1}">
 
+
+    <ContentPage.Resources>
+        <ResourceDictionary Source="Styles.xaml" />
+    </ContentPage.Resources>
+
+
     <Shell.TitleView>
         <StackLayout
             Padding="0,0,10,0"
@@ -36,21 +42,8 @@
                         Android="StartAndExpand" />
                 </Label.HorizontalOptions>
             </Label>
-
-            <Switch
-                Toggled="Switch_Toggled"
-                OnColor="Black"
-                HorizontalOptions="EndAndExpand"
-                VerticalOptions="CenterAndExpand"
-                Visual="Material" />
-
         </StackLayout>
     </Shell.TitleView>
-
-
-    <ContentPage.Resources>
-        <ResourceDictionary Source="Styles.xaml" />
-    </ContentPage.Resources>
 
 
     <ContentPage.Content>
@@ -110,7 +103,7 @@
                             <Label
                                 Text="DANIEL MONETTELLI"
                                 Style="{StaticResource TxtHeadLine5}"
-                                HorizontalOptions="CenterAndExpand"
+                                HorizontalTextAlignment="Center"
                                 MaxLines="2"
                                 CharacterSpacing="2" />
 

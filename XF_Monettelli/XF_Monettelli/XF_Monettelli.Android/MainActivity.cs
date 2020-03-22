@@ -9,6 +9,7 @@ using Android.OS;
 using FFImageLoading.Forms.Platform;
 using FFImageLoading;
 using FFImageLoading.Svg.Forms;
+using Lottie.Forms.Droid;
 
 namespace XF_Monettelli.Android
 {
@@ -41,6 +42,11 @@ namespace XF_Monettelli.Android
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             // ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            // ADD Init() Lottie in Android
+            // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            AnimationViewRenderer.Init();
+            // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
             CachedImageRenderer.Init(true);
             CachedImageRenderer.InitImageViewHandler();

@@ -5,18 +5,19 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Padding="16,6,10,10"
+    Padding="18,13.5,10,13.5"
     ColumnSpacing="12"
     mc:Ignorable="d">
 
+    
     <Grid.Resources>
         <ResourceDictionary Source="Styles.xaml" />
     </Grid.Resources>
 
-    
+
     <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="16.5" />
-        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="Auto" />
     </Grid.ColumnDefinitions>
 
     <Image

@@ -134,6 +134,18 @@
     <Content Include="svg_burn.svg">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
     </Content>
+    <Content Include="svg_preview_darktheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </Content>
+    <Content Include="svg_preview_instagramdarktheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </Content>
+    <Content Include="svg_preview_instagrameleganttheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </Content>
+    <Content Include="svg_preview_lighttheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </Content>
     <Content Include="svg_running.svg">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
@@ -154,6 +166,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
+      <Version>3.0.3</Version>
+    </PackageReference>
     <PackageReference Include="SkiaSharp.Views.Forms">
       <Version>1.68.1.1</Version>
     </PackageReference>
@@ -166,7 +181,7 @@
     <PackageReference Include="Xamarin.FFImageLoading.Transformations">
       <Version>2.4.11.982</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.9" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
     <PackageReference Include="Xamarin.Forms.PancakeView">
@@ -181,9 +196,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\FontsFamily\Poppins-Bold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontIcons\CustomIconFont.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\FontIcons\materialdesignicons-webfont.ttf" />
@@ -283,6 +295,48 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\FontsFamily\Poppins-BlackItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontIcons\monettelliuikitfonticons.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-Black.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-BlackItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-BoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-ExtraLight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-ExtraLightItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-Italic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-Light.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-LightItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-SemiBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\FontsFamily\SourceSansPro-SemiBoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="weareunderconstruction.json" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

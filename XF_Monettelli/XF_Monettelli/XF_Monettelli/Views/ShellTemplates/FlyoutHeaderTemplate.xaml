@@ -24,57 +24,42 @@
 
 
     <Grid
-        Padding="16,30,16,0"
-        RowSpacing="7">
+        Padding="16,0"
+        ColumnSpacing="13"
+        VerticalOptions="Center">
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="60" />
+            <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="60" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <yummy:PancakeView
+        <Image
             Grid.Row="0"
             Grid.Column="0"
-            CornerRadius="30"
-            BorderColor="{DynamicResource colPrim}"
-            BorderThickness="3"
-            HasShadow="False"
-            HorizontalOptions="Start">
-            <ff:CachedImage
-                Source="{MarkupExtension:EmbeddedImage XF_Monettelli.Images.img_profile.png}"
-                BitmapOptimizations="True"
-                LoadingPlaceholder="Logo"
-                VerticalOptions="Center"
-                HorizontalOptions="Start"
-                Aspect="AspectFill" />
-        </yummy:PancakeView>
+            Source="{StaticResource icon_brand_monettelliuikit}"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            HeightRequest="90"
+            WidthRequest="90"
+            Aspect="AspectFill" />
 
         <StackLayout
-            Grid.Row="1"
-            Grid.Column="0"
-            Grid.ColumnSpan="2"
-            Spacing="-6">
+            Grid.Row="0"
+            Grid.Column="1"
+            Spacing="-2"
+            VerticalOptions="Center">
+            
             <Label
-                Grid.Row="1"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                Text="Daniel Monettelli L."
-                Style="{StaticResource TxtH6Flyout_1}" />
+                Text="Monettelli"
+                Style="{StaticResource TxtH5Flyout_1}" />
 
             <Label
-                Grid.Row="2"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                CharacterSpacing="0.5"
-                Text="Xamarin Mobile Developer"
-                Style="{StaticResource TxtSubTit2Flyout_1}" />
+                Text="UI KIT"
+                Style="{StaticResource TxtH5Flyout_1}" />
         </StackLayout>
 
     </Grid>

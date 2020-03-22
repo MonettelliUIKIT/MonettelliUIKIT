@@ -10,18 +10,24 @@
 
     <!--#region MATERIAL FONT ICONS-->
     <OnPlatform x:Key="MaterialFontIcons" x:TypeArguments="x:String">
-        <On Platform="Android" Value="FontIcons/materialdesignicons-webfont.ttf#Material Design Icons" />
-        <On Platform="iOS" Value="Material Design Icons" />
-        <On Platform="UWP" Value="/Assets/FontIcons/materialdesignicons-webfont.ttf#Material Design Icons" />
+        <On Platform="Android"
+            Value="FontIcons/materialdesignicons-webfont.ttf#Material Design Icons" />
+        <On Platform="iOS"
+            Value="Material Design Icons" />
+        <On Platform="UWP"
+            Value="/Assets/FontIcons/materialdesignicons-webfont.ttf#Material Design Icons" />
     </OnPlatform>
     <!--#endregion-->
 
 
     <!--#region CUSTOM FONT ICONS WITH IconMoon and Fontello-->
-    <OnPlatform x:Key="CustomFontIcons" x:TypeArguments="x:String">
-        <On Platform="Android" Value="FontIcons/CustomIconFont.ttf#CustomIconFont" />
-        <On Platform="iOS" Value="CustomIconFont" />
-        <On Platform="UWP" Value="/Assets/FontIcons/CustomIconFont.ttf#CustomIconFont" />
+    <OnPlatform x:Key="MonettelliFontIcons" x:TypeArguments="x:String">
+        <On Platform="Android"
+            Value="FontIcons/monettelliuikitfonticons.ttf#monettelliuikitfonticons" />
+        <On Platform="iOS"
+            Value="monettelliuikitfonticons" />
+        <On Platform="UWP"
+            Value="/Assets/FontIcons/monettelliuikitfonticons.ttf#monettelliuikitfonticons" />
     </OnPlatform>
     <!--#endregion-->
 
@@ -39,9 +45,12 @@
     <!--#region PLATFORMS OPTIONAL-->
     <!--#region PLATFORMS CHANGE ICONS FONT FOR Glyph-->
     <OnPlatform x:Key="OnStringIcon" x:TypeArguments="x:String">
-        <On Platform="Android" Value="{x:Static FontAwesome:MaterialFontIcons.AccessPoint}" />
-        <On Platform="iOS" Value="{x:Static FontAwesome:MaterialFontIcons.Cached}" />
-        <On Platform="UWP" Value="{x:Static FontAwesome:MaterialFontIcons.AccountCardDetails}" />
+        <On Platform="Android"
+            Value="{x:Static FontAwesome:MaterialFontIcons.AccessPoint}" />
+        <On Platform="iOS"
+            Value="{x:Static FontAwesome:MaterialFontIcons.Cached}" />
+        <On Platform="UWP"
+            Value="{x:Static FontAwesome:MaterialFontIcons.AccountCardDetails}" />
     </OnPlatform>
     <!--#endregion-->
 
@@ -52,7 +61,9 @@
         <On Platform="UWP" Value="#8DFF2D" />
     </OnPlatform>
 
-    <OnPlatform x:Key="OnColorIconFlyout" x:TypeArguments="Color">
+    <OnPlatform
+        x:Key="OnColorIconFlyout"
+        x:TypeArguments="Color">
         <On Platform="Android" Value="{DynamicResource colQua}" />
         <On Platform="iOS" Value="{DynamicResource colQua}" />
         <On Platform="UWP" Value="#121212" />
@@ -80,24 +91,16 @@
 
     <!--#region FontImageSource TABS-->
     <FontImageSource
-        x:Key="icon_tab_explore"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_tab_explore}" />
+        x:Key="icon_tab_monettelliuikit"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_brand_monettelliuikit}" />
 
     <FontImageSource
-        x:Key="icon_tab_order"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_tab_order}" />
-
-    <FontImageSource
-        x:Key="icon_tab_favorite"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_tab_favorite}" />
-
-    <FontImageSource
-        x:Key="icon_tab_profile"
-        FontFamily="{StaticResource CustomFontIcons}"
-        Glyph="{x:Static FontAwesome:CustomFontIcons.icon_tab_profile}" />
+        x:Key="icon_brand_monettelliuikit"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_brand_monettelliuikit}"
+        Size="92"
+        Color="{DynamicResource colPrim}" />
     <!--#endregion-->
 
 
@@ -105,53 +108,60 @@
 
     <!--#region Flyout Icon-->
     <FontImageSource
-        x:Key="icon_fly_main"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.FormatListBulletedSquare}"
+        x:Key="icon_fly_menu"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_menu}"
         Color="{DynamicResource colQua}" />
     <!--#endregion-->
 
     <FontImageSource
-        x:Key="icon_fly_home"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.Home}"
+        x:Key="icon_fly_new"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_rocket_outline}"
+        Size="30"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
-        x:Key="icon_fly_search"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.Magnify}"
+        x:Key="icon_fly_maindashboard"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_view_dashboard_outline}"
+        Size="30"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
-        x:Key="icon_fly_basket"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.Basket}"
+        x:Key="icon_fly_controlsandfeatures"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_xamarin_outline}"
+        Size="30"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
-        x:Key="icon_fly_ticket"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.TicketConfirmation}"
+        x:Key="icon_fly_preview"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_ballot_outline}"
+        Size="30"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
-        x:Key="icon_fly_settings"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.Settings}"
+        x:Key="icon_fly_allicons"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_animation_outline}"
+        Size="30"
         Color="{DynamicResource colQua}" />
 
 
     <FontImageSource
-        x:Key="icon_fly_support"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.FaceAgent}"
+        x:Key="icon_fly_themes"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_palette_outline}"
+        Size="30"
         Color="{DynamicResource colQua}" />
 
     <FontImageSource
-        x:Key="icon_fly_SelectGroup"
-        FontFamily="{StaticResource MaterialFontIcons}"
-        Glyph="{x:Static FontAwesome:MaterialFontIcons.SelectGroup}"
+        x:Key="icon_fly_about"
+        FontFamily="{StaticResource MonettelliFontIcons}"
+        Glyph="{x:Static FontAwesome:MonettelliFontIcons.icon_fly_file_document_outline}"
+        Size="30"
         Color="{DynamicResource colQua}" />
     <!--#endregion-->
 

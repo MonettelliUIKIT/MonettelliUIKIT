@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XF_Monettelli.Views.ConstructionPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    Title="Under Construction"
+    BackgroundColor="{DynamicResource colStartBG1}"
+    mc:Ignorable="d">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary Source="Styles.xaml" />
+    </ContentPage.Resources>
+
+
+    <Shell.TitleView>
+        <StackLayout
+            Padding="0,0,10,0"
+            Orientation="Horizontal">
+
+            <Label
+                CharacterSpacing="2"
+                Text="Under Construction"
+                VerticalOptions="CenterAndExpand">
+                <Label.Style>
+                    <OnPlatform x:TypeArguments="Style">
+                        <On
+                            Platform="Android, UWP"
+                            Value="{StaticResource TxtTitle_Android}" />
+                        <On
+                            Platform="iOS"
+                            Value="{StaticResource TxtHeadLine6_iOS}" />
+                    </OnPlatform>
+                </Label.Style>
+                <Label.HorizontalOptions>
+                    <OnPlatform
+                        x:TypeArguments="LayoutOptions"
+                        Android="StartAndExpand"
+                        iOS="CenterAndExpand" />
+                </Label.HorizontalOptions>
+            </Label>
+        </StackLayout>
+    </Shell.TitleView>
+
+
+    <ContentPage.Content>
+        <Grid Padding="40">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <Lottie:AnimationView
+                Grid.Row="0"
+                Animation="weareunderconstruction.json"
+                Loop="True"
+                IsPlaying="True" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

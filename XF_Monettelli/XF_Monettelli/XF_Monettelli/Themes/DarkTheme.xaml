@@ -9,7 +9,7 @@
     mc:Ignorable="d">
 
     <!--#region Color Range-->
-    <Color x:Key="colPrim">#BB86FC</Color>
+    <Color x:Key="colPrim">#9FF9D2</Color>
     <Color x:Key="colSec">#F1F1F1</Color>
     <Color x:Key="colTer">#D2D2D2</Color>
     <Color x:Key="colQua">#F1F1F1</Color>
@@ -53,10 +53,10 @@
     <!--#region Shell Colors-->
     <Color x:Key="colTabBarUns">#BFBFBF</Color>
     <Color x:Key="colTabBarBack">#121212</Color>
-    <Color x:Key="colTabBarTitle">#BB86FC</Color>
+    <Color x:Key="colTabBarTitle">#9FF9D2</Color>
     <Color x:Key="colBackgroundColor">#121212</Color>
-    <Color x:Key="colForegroundColor">#BB86FC</Color>
-    <Color x:Key="colTitleColor">#BB86FC</Color>
+    <Color x:Key="colForegroundColor">#9FF9D2</Color>
+    <Color x:Key="colTitleColor">#9FF9D2</Color>
     <!--#endregion-->
 
 </ResourceDictionary>
