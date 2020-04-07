@@ -52,20 +52,40 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+
+   <ItemGroup>
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
+      <Version>3.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="SkiaSharp.Views.Forms">
+      <Version>1.68.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Forms.PancakeView">
+      <Version>1.3.7</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms.Visual.Material">
-      <Version>4.4.0.991265</Version>
+      <Version>4.5.0.396</Version>
     </PackageReference>
   </ItemGroup>
+
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+
   <ItemGroup>
-    <AndroidAsset Include="Assets\FontIcons\CustomIconFont.ttf" />
     <AndroidAsset Include="Assets\FontIcons\materialdesignicons-webfont.ttf" />
     <AndroidAsset Include="Assets\FontsFamily\BebasNeue-Thin.ttf" />
     <AndroidAsset Include="Assets\FontsFamily\OpenSans-Bold.ttf" />
@@ -82,10 +102,43 @@
     <AndroidAsset Include="Assets\FontsFamily\BebasNeue-Book.ttf" />
     <AndroidAsset Include="Assets\FontsFamily\BebasNeue-Light.ttf" />
     <AndroidAsset Include="Assets\FontsFamily\BebasNeue-Regular.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-Bold.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-ExtraBold.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-ExtraBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-ExtraLight.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-ExtraLightItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-Italic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-Light.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-Medium.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-Regular.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-SemiBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-Thin.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-ThinItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-Black.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\Poppins-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\FontIcons\monettelliuikitfonticons.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-Black.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-Bold.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-ExtraLight.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-ExtraLightItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-Italic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-Light.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-Regular.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\FontsFamily\SourceSansPro-SemiBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\weareunderconstruction.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
+
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
     <AndroidResource Include="Resources\layout\Toolbar.xml" />
@@ -103,51 +156,54 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\svg_burn.svg">
+      <SubType>
+      </SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+
+ <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-ldpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
-  <ItemGroup>
+
+ <ItemGroup>
     <ProjectReference Include="..\$ext_safeprojectname$\$ext_safeprojectname$.csproj">
       <Project>{1CA81EDF-43DD-4202-988C-61EF98F3CB42}</Project>
       <Name>$ext_safeprojectname$</Name>
     </ProjectReference>
   </ItemGroup>
+  
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-ldpi\img_bgflyout.png" />
+    <AndroidResource Include="Resources\drawable\svg_running.svg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-mdpi\img_bgflyout.png" />
+    <AndroidResource Include="Resources\drawable\svg_star_badge.svg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\img_bgflyout.png" />
+    <AndroidResource Include="Resources\drawable\svg_preview_darktheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\img_bgflyout.png" />
+    <AndroidResource Include="Resources\drawable\svg_preview_instagramdarktheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\img_bgflyout.png" />
+    <AndroidResource Include="Resources\drawable\svg_preview_instagrameleganttheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\img_bgflyout.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-ldpi\img_profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-mdpi\img_profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\img_profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\img_profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\img_profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\img_profile.png" />
+    <AndroidResource Include="Resources\drawable\svg_preview_lighttheme.svg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

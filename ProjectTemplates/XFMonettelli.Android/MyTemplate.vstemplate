@@ -15,29 +15,60 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="XFMonettelli.Android.csproj" File="XFMonettelli.Android.csproj" ReplaceParameters="true">
-      <Folder Name="Assets" TargetFolderName="Assets">
+     <Folder Name="Assets" TargetFolderName="Assets">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
         <Folder Name="FontIcons" TargetFolderName="FontIcons">
-          <ProjectItem ReplaceParameters="false" TargetFileName="CustomIconFont.ttf">CustomIconFont.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="materialdesignicons-webfont.ttf">materialdesignicons-webfont.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="materialdesignicons-webfont.ttf">materialdesignicons-webfont.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="monettelliuikitfonticons.ttf">monettelliuikitfonticons.ttf</ProjectItem>
         </Folder>
         <Folder Name="FontsFamily" TargetFolderName="FontsFamily">
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Light.ttf">BebasNeue-Light.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Regular.ttf">BebasNeue-Regular.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Thin.ttf">BebasNeue-Thin.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Bold.ttf">OpenSans-Bold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-BoldItalic.ttf">OpenSans-BoldItalic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBold.ttf">OpenSans-ExtraBold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBoldItalic.ttf">OpenSans-ExtraBoldItalic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Italic.ttf">OpenSans-Italic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Light.ttf">OpenSans-Light.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-LightItalic.ttf">OpenSans-LightItalic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Regular.ttf">OpenSans-Regular.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBold.ttf">OpenSans-SemiBold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBoldItalic.ttf">OpenSans-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Light.ttf">BebasNeue-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Regular.ttf">BebasNeue-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Thin.ttf">BebasNeue-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Bold.ttf">OpenSans-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-BoldItalic.ttf">OpenSans-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-ExtraBold.ttf">OpenSans-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-ExtraBoldItalic.ttf">OpenSans-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Italic.ttf">OpenSans-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Light.ttf">OpenSans-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-LightItalic.ttf">OpenSans-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Regular.ttf">OpenSans-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-SemiBold.ttf">OpenSans-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-SemiBoldItalic.ttf">OpenSans-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Black.ttf">Poppins-Black.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-BlackItalic.ttf">Poppins-BlackItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Bold.ttf">Poppins-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-BoldItalic.ttf">Poppins-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraBold.ttf">Poppins-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraBoldItalic.ttf">Poppins-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraLight.ttf">Poppins-ExtraLight.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraLightItalic.ttf">Poppins-ExtraLightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Italic.ttf">Poppins-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Light.ttf">Poppins-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-LightItalic.ttf">Poppins-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Medium.ttf">Poppins-Medium.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-MediumItalic.ttf">Poppins-MediumItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Regular.ttf">Poppins-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-SemiBold.ttf">Poppins-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-SemiBoldItalic.ttf">Poppins-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Thin.ttf">Poppins-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ThinItalic.ttf">Poppins-ThinItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Black.ttf">SourceSansPro-Black.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-BlackItalic.ttf">SourceSansPro-BlackItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Bold.ttf">SourceSansPro-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-BoldItalic.ttf">SourceSansPro-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-ExtraLight.ttf">SourceSansPro-ExtraLight.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-ExtraLightItalic.ttf">SourceSansPro-ExtraLightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Italic.ttf">SourceSansPro-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Light.ttf">SourceSansPro-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-LightItalic.ttf">SourceSansPro-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Regular.ttf">SourceSansPro-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-SemiBold.ttf">SourceSansPro-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-SemiBoldItalic.ttf">SourceSansPro-SemiBoldItalic.ttf</ProjectItem>
         </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="weareunderconstruction.json">weareunderconstruction.json</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainActivity.cs">MainActivity.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
@@ -46,31 +77,21 @@
       </Folder>
       <Folder Name="Resources" TargetFolderName="Resources">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
-        <Folder Name="drawable" TargetFolderName="drawable" />
-        <Folder Name="drawable-hdpi" TargetFolderName="drawable-hdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+        <Folder Name="drawable" TargetFolderName="drawable">
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_burn.svg">svg_burn.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_darktheme.svg">svg_preview_darktheme.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_instagramdarktheme.svg">svg_preview_instagramdarktheme.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_instagrameleganttheme.svg">svg_preview_instagrameleganttheme.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_lighttheme.svg">svg_preview_lighttheme.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_running.svg">svg_running.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_star_badge.svg">svg_star_badge.svg</ProjectItem>
         </Folder>
-        <Folder Name="drawable-ldpi" TargetFolderName="drawable-ldpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
-        </Folder>
-        <Folder Name="drawable-mdpi" TargetFolderName="drawable-mdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
-        </Folder>
-        <Folder Name="drawable-xhdpi" TargetFolderName="drawable-xhdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
-        </Folder>
-        <Folder Name="drawable-xxhdpi" TargetFolderName="drawable-xxhdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
-        </Folder>
-        <Folder Name="drawable-xxxhdpi" TargetFolderName="drawable-xxxhdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
-        </Folder>
+        <Folder Name="drawable-hdpi" TargetFolderName="drawable-hdpi" />
+        <Folder Name="drawable-ldpi" TargetFolderName="drawable-ldpi" />
+        <Folder Name="drawable-mdpi" TargetFolderName="drawable-mdpi" />
+        <Folder Name="drawable-xhdpi" TargetFolderName="drawable-xhdpi" />
+        <Folder Name="drawable-xxhdpi" TargetFolderName="drawable-xxhdpi" />
+        <Folder Name="drawable-xxxhdpi" TargetFolderName="drawable-xxxhdpi" />
         <Folder Name="layout" TargetFolderName="layout">
           <ProjectItem ReplaceParameters="true" TargetFileName="Tabbar.xml">Tabbar.xml</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="Toolbar.xml">Toolbar.xml</ProjectItem>
@@ -80,24 +101,24 @@
           <ProjectItem ReplaceParameters="true" TargetFileName="icon_round.xml">icon_round.xml</ProjectItem>
         </Folder>
         <Folder Name="mipmap-hdpi" TargetFolderName="mipmap-hdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
         </Folder>
         <Folder Name="mipmap-mdpi" TargetFolderName="mipmap-mdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
         </Folder>
         <Folder Name="mipmap-xhdpi" TargetFolderName="mipmap-xhdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
         </Folder>
         <Folder Name="mipmap-xxhdpi" TargetFolderName="mipmap-xxhdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
         </Folder>
         <Folder Name="mipmap-xxxhdpi" TargetFolderName="mipmap-xxxhdpi">
-          <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
         </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="Resource.designer.cs">Resource.designer.cs</ProjectItem>
         <Folder Name="values" TargetFolderName="values">
@@ -105,6 +126,7 @@
           <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
         </Folder>
       </Folder>
+
     </Project>
   </TemplateContent>
 </VSTemplate>
