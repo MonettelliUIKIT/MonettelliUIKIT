@@ -83,8 +83,42 @@
     <BundleResource Include="Resources\BebasNeue-Book.ttf" />
     <BundleResource Include="Resources\BebasNeue-Light.ttf" />
     <BundleResource Include="Resources\BebasNeue-Regular.ttf" />
-    <BundleResource Include="Resources\CustomIconFont.ttf" />
     <BundleResource Include="Resources\materialdesignicons-webfont.ttf" />
+    <BundleResource Include="Resources\Poppins-Bold.ttf" />
+    <BundleResource Include="Resources\Poppins-BoldItalic.ttf" />
+    <BundleResource Include="Resources\Poppins-ExtraBold.ttf" />
+    <BundleResource Include="Resources\Poppins-ExtraBoldItalic.ttf" />
+    <BundleResource Include="Resources\Poppins-ExtraLight.ttf" />
+    <BundleResource Include="Resources\Poppins-ExtraLightItalic.ttf" />
+    <BundleResource Include="Resources\Poppins-Italic.ttf" />
+    <BundleResource Include="Resources\Poppins-Light.ttf" />
+    <BundleResource Include="Resources\Poppins-LightItalic.ttf" />
+    <BundleResource Include="Resources\Poppins-Medium.ttf" />
+    <BundleResource Include="Resources\Poppins-MediumItalic.ttf" />
+    <BundleResource Include="Resources\Poppins-Regular.ttf" />
+    <BundleResource Include="Resources\Poppins-SemiBold.ttf" />
+    <BundleResource Include="Resources\Poppins-SemiBoldItalic.ttf" />
+    <BundleResource Include="Resources\Poppins-Thin.ttf" />
+    <BundleResource Include="Resources\Poppins-ThinItalic.ttf" />
+    <BundleResource Include="Resources\Poppins-Black.ttf" />
+    <BundleResource Include="Resources\Poppins-BlackItalic.ttf" />
+    <BundleResource Include="Resources\svg_burn.svg" />
+    <BundleResource Include="Resources\svg_running.svg" />
+    <BundleResource Include="Resources\svg_star_badge.svg" />
+    <BundleResource Include="Resources\monettelliuikitfonticons.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-Black.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-BlackItalic.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-Bold.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-BoldItalic.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-ExtraLight.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-ExtraLightItalic.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-Italic.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-Light.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-LightItalic.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-Regular.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-SemiBold.ttf" />
+    <BundleResource Include="Resources\SourceSansPro-SemiBoldItalic.ttf" />
+    <BundleResource Include="Resources\weareunderconstruction.json" />
   </ItemGroup>
 
     <ItemGroup>
@@ -149,6 +183,7 @@
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
+
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -157,36 +192,52 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
+
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
+      <Version>3.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="SkiaSharp.Views.Forms">
+      <Version>1.68.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Forms.PancakeView">
+      <Version>1.3.7</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms.Visual.Material">
-      <Version>4.4.0.991265</Version>
+      <Version>4.5.0.396</Version>
     </PackageReference>
   </ItemGroup>
+
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+
   <ItemGroup>
     <ProjectReference Include="..\$ext_safeprojectname$\$ext_safeprojectname$.csproj">
       <Project>{1CA81EDF-43DD-4202-988C-61EF98F3CB42}</Project>
       <Name>$ext_safeprojectname$</Name>
     </ProjectReference>
   </ItemGroup>
+
   <ItemGroup>
-    <BundleResource Include="Resources\img_bgflyout.png" />
+    <BundleResource Include="Resources\svg_preview_darktheme.svg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\img_bgflyout%402x.png" />
+    <BundleResource Include="Resources\svg_preview_instagramdarktheme.svg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\img_bgflyout%403x.png" />
+    <BundleResource Include="Resources\svg_preview_instagrameleganttheme.svg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\img_profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_profile%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\img_profile%403x.png" />
+    <BundleResource Include="Resources\svg_preview_lighttheme.svg" />
   </ItemGroup>
 </Project>
