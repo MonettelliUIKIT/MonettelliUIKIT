@@ -172,7 +172,7 @@
         FontFamily="{StaticResource MaterialFontIcons}"
         Glyph="{x:Static FontAwesome:MaterialFontIcons.Heart}"
         Size="30"
-        Color="#EC2143" />
+        Color="{DynamicResource colPrim}" />
     <!--#endregion-->
 
 </ResourceDictionary>

@@ -12,7 +12,7 @@
         <!-- With "theme" namespace intellisense does not work -->
         <!--<theme:LightTheme />-->
         
-        <!-- With "ResourceDictionary" intellisence if it works -->
+        <!-- With "ResourceDictionary" intellisense if it works -->
         <ResourceDictionary Source="/Themes/LightTheme.xaml"/>
     </Application.Resources>
 

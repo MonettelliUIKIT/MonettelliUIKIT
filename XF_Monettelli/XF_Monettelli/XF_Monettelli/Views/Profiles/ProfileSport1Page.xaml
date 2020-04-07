@@ -55,7 +55,7 @@
             <ScrollView Padding="0,0,0,10">
 
                 <Grid
-                    Padding="16,0"
+                    Style="{StaticResource GridIdealSpace}"
                     ColumnSpacing="0"
                     RowSpacing="20">
 

@@ -99,7 +99,7 @@
         <Tab
             Title="Explore"
             Icon="{StaticResource icon_tab_monettelliuikit}">
-            <ShellContent ContentTemplate="{DataTemplate view:ProfileSport1Page}" />
+            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 

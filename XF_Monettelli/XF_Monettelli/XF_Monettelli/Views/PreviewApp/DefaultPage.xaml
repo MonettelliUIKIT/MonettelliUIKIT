@@ -6,8 +6,8 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     BackgroundColor="{DynamicResource colStartBG1}"
-    mc:Ignorable="d"
-    Shell.NavBarIsVisible="True">
+    Shell.NavBarIsVisible="True"
+    mc:Ignorable="d">
 
 
     <ContentPage.Resources>
@@ -16,10 +16,9 @@
 
 
     <Shell.TitleView>
-        <StackLayout
-            Padding="0,0,50,0">
+        <StackLayout Padding="0,0,50,0">
             <Label
-                Text="MonettelliUIKit"
+                Text="MonettelliUIKIT"
                 VerticalOptions="CenterAndExpand"
                 CharacterSpacing="2">
                 <Label.Style>
@@ -59,7 +58,7 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Clean Style Library"
+                Text="Clean UI Style Architecture"
                 HorizontalOptions="Center"
                 Style="{StaticResource TxtTitle_2}" />
 
