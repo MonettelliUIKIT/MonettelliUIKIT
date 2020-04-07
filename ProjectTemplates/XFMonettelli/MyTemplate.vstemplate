@@ -16,23 +16,57 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="XFMonettelli.csproj" File="XFMonettelli.csproj" ReplaceParameters="true">
+
+      <Folder Name="CodeFontIcons" TargetFolderName="CodeFontIcons">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MaterialFontIcons.cs">MaterialFontIcons.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MonettelliFontIcons.cs">MonettelliFontIcons.cs</ProjectItem>
+      </Folder>
+
+      <Folder Name="Images" TargetFolderName="Images">
+        <ProjectItem ReplaceParameters="true" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
+      </Folder>
+
+      <Folder Name="MarkupExtension" TargetFolderName="MarkupExtension">
+        <ProjectItem ReplaceParameters="true" TargetFileName="EmbeddedImageExtension.cs">EmbeddedImageExtension.cs</ProjectItem>
+      </Folder>
+
       <Folder Name="Models" TargetFolderName="Models" />
+
       <Folder Name="Styles" TargetFolderName="Styles">
-        <Folder Name="Themes" TargetFolderName="Themes">
-          <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml">DarkTheme.xaml</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml.cs">DarkTheme.xaml.cs</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="WhiteTheme.xaml">WhiteTheme.xaml</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="WhiteTheme.xaml.cs">WhiteTheme.xaml.cs</ProjectItem>
-        </Folder>
-        <ProjectItem ReplaceParameters="true" TargetFileName="CustomFontIcons.cs">CustomFontIcons.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="FontIcons.cs">FontIcons.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="General.xaml">General.xaml</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Icons.xaml">Icons.xaml</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Spaces.xaml">Spaces.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Responsive.xaml">Responsive.xaml</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Texts.xaml">Texts.xaml</ProjectItem>
       </Folder>
+
+      <Folder Name="Themes" TargetFolderName="Themes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml">DarkTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml.cs">DarkTheme.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramDarkTheme.xaml">InstagramDarkTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramDarkTheme.xaml.cs">InstagramDarkTheme.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramElegantTheme.xaml">InstagramElegantTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramElegantTheme.xaml.cs">InstagramElegantTheme.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LightTheme.xaml">LightTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LightTheme.xaml.cs">LightTheme.xaml.cs</ProjectItem>
+      </Folder>
+
       <Folder Name="ViewModels" TargetFolderName="ViewModels" />
+
       <Folder Name="Views" TargetFolderName="Views">
+        <Folder Name="PreviewApp" TargetFolderName="PreviewApp">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ConstructionPage.xaml">ConstructionPage.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ConstructionPage.xaml.cs">ConstructionPage.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml">DefaultPage.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml.cs">DefaultPage.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml">Styles.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml.cs">Styles.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ThemesPage.xaml">ThemesPage.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ThemesPage.xaml.cs">ThemesPage.xaml.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Profiles" TargetFolderName="Profiles">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml">Styles.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml.cs">Styles.xaml.cs</ProjectItem>
+        </Folder>
         <Folder Name="ShellTemplates" TargetFolderName="ShellTemplates">
           <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutHeaderTemplate.xaml">FlyoutHeaderTemplate.xaml</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutHeaderTemplate.xaml.cs">FlyoutHeaderTemplate.xaml.cs</ProjectItem>
@@ -40,17 +74,17 @@
           <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutItemTemplate.xaml.cs">FlyoutItemTemplate.xaml.cs</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml">FlyoutMenuItemTemplate.xaml</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml.cs">FlyoutMenuItemTemplate.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml">Styles.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml.cs">Styles.xaml.cs</ProjectItem>
         </Folder>
-        <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml">DefaultPage.xaml</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml.cs">DefaultPage.xaml.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="DemoPage.xaml">DemoPage.xaml</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="DemoPage.xaml.cs">DemoPage.xaml.cs</ProjectItem>
       </Folder>
+
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="AppShell.xaml">AppShell.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="AppShell.xaml.cs">AppShell.xaml.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      
     </Project>
   </TemplateContent>
 </VSTemplate>

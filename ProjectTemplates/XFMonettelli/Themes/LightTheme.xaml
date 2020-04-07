@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="$safeprojectname$.Themes.LightTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Source="/Styles/General.xaml"
+    mc:Ignorable="d">
+
+    <!--#region Color Range-->
+    <Color x:Key="colPrim">#6200EE</Color>
+    <Color x:Key="colSec">#000000</Color>
+    <Color x:Key="colTer">#4E4E4A</Color>
+    <Color x:Key="colQua">#4E4E4A</Color>
+    <Color x:Key="colQui">#FF000000</Color>
+    <!--#endregion-->
+
+    <!--#region Backgroundcolors-->
+    <Color x:Key="colStartBG1">#F2F2F2</Color>
+    <Color x:Key="colEndBG1">#F2F2F2</Color>
+    <Color x:Key="colStartBG2">#FEFEFE</Color>
+    <Color x:Key="colEndBG2">#FEFEFE</Color>
+    <!--#endregion-->
+
+    <!--#region Entry Colors-->
+    <Color x:Key="colAccCheck">#FFE7F9F5</Color>
+    <Color x:Key="colAccError">#FFF9E7EB</Color>
+    <Color x:Key="colAccUns">#FFF2F3F5</Color>
+    <Color x:Key="colUnsPrim">#FFC7CAD1</Color>
+    <Color x:Key="colAltQua">#FFE3E7EF</Color>
+    <!--#endregion-->
+
+    <!--#region Border Colors-->
+    <Color x:Key="colBorCheck">#FF10CA87</Color>
+    <Color x:Key="colBorError">#FFCA1030</Color>
+    <!--#endregion-->
+
+    <!--#region Remark Colors-->
+    <Color x:Key="colRemPrim">#FFF93963</Color>
+    <Color x:Key="colRemSec">#FFD4145C</Color>
+    <!--#endregion-->
+
+    <!--#region Surface Colors-->
+    <Color x:Key="colStartSurf1">#FFFFFF</Color>
+    <Color x:Key="colEndSurf1">#FFFFFF</Color>
+    <Color x:Key="colStartSurf2">#F3F4F9</Color>
+    <Color x:Key="colEndSurf2">#F3F4F9</Color>
+    <Color x:Key="colStartSurf3">#FFFFFF</Color>
+    <Color x:Key="colEndSurf3">#FFFFFF</Color>
+    <!--#endregion-->
+
+    <!--#region Shell Colors-->
+    <Color x:Key="colTabBarUns">#4E4E4A</Color>
+    <Color x:Key="colTabBarBack">#FFFFFF</Color>
+    <Color x:Key="colTabBarTitle">#6200EE</Color>
+    <Color x:Key="colBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="colForegroundColor">#6200EE</Color>
+    <Color x:Key="colTitleColor">#6200EE</Color>
+    <!--#endregion-->
+
+</ResourceDictionary>

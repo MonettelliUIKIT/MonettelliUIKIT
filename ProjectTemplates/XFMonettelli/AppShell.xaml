@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Shell 
+<Shell
     x:Class="$safeprojectname$.AppShell"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -7,14 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ShellTemplate="clr-namespace:$safeprojectname$.Views.ShellTemplates"
     xmlns:view="clr-namespace:$safeprojectname$.Views"
-    xmlns:FontAwesome="clr-namespace:$safeprojectname$.Styles;assembly=$safeprojectname$"
-    Title="Delicious Food"
-    FlyoutBackgroundImage="img_bgflyout.png"
-    FlyoutBackgroundImageAspect="AspectFill"
-    FlyoutIcon="{StaticResource icon_fly_main}"
+    xmlns:FontAwesome="clr-namespace:$safeprojectname$.CodeFontIcons;assembly=$safeprojectname$"
+    Title="MonettelliUIKit"
+    FlyoutBackgroundColor="{DynamicResource colStartBG1}"
+    FlyoutIcon="{StaticResource icon_fly_menu}"
     FlyoutBehavior="Flyout"
+    FlyoutHeaderBehavior="Fixed"
     FlyoutHeaderTemplate="{DataTemplate ShellTemplate:FlyoutHeaderTemplate}"
-    FlyoutHeaderBehavior="Scroll"
     ItemTemplate="{DataTemplate ShellTemplate:FlyoutItemTemplate}"
     MenuItemTemplate="{DataTemplate ShellTemplate:FlyoutMenuItemTemplate}"
     Visual="Default"
@@ -24,34 +23,37 @@
     <!--#region CHANGED FLYOUT ICON-->
     <!--<Shell.FlyoutIcon>
         <FontImageSource
-            FontFamily="{StaticResource MaterialIconFont}"
-            Glyph="{x:Static FontAwesome:IconFont.FormatListBulletedSquare}"/>
+            FontFamily="{StaticResource MaterialFontIcons}"
+            Glyph="{x:Static FontAwesome:MaterialFontIcons.FormatListBulletedSquare}"/>
     </Shell.FlyoutIcon>-->
     <!--#endregion-->
 
 
     <!--#region SHELL RESOURCES-->
     <Shell.Resources>
-        
+
         <!--#region SHELL STYLES-->
-        <Color x:Key="NavigationPrimary">#2196F3</Color>
-        
-        <Style x:Key="BaseStyle" TargetType="Element">
-            <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
+        <Color x:Key="NavigationPrimary">#9042F1</Color>
+
+        <Style
+            x:Key="BaseStyle"
+            TargetType="Element">
+            <Setter Property="Shell.BackgroundColor" Value="{DynamicResource colBackgroundColor}" />
             <!--  In iOS, this property changes the color of the FlyoutIcon and the selected top tabs  -->
-            <Setter Property="Shell.ForegroundColor" Value="White" />
-            <Setter Property="Shell.TitleColor" Value="White" />
-            <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+            <Setter Property="Shell.ForegroundColor" Value="{DynamicResource colForegroundColor}" />
+            <Setter Property="Shell.TitleColor" Value="{DynamicResource colTitleColor}" />
+            <Setter Property="Shell.DisabledColor" Value="White" />
             <!--  In iOS this property changes the color tabs upper not selected  -->
-            <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-            <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
-            <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-            <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-            <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+            <Setter Property="Shell.UnselectedColor" Value="{DynamicResource colTabBarUns}" />
+            <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource colTabBarBack}" />
+            <!--  In UWP this property changes the color tabs  -->
+            <Setter Property="Shell.TabBarForegroundColor" Value="{DynamicResource colTabBarTitle}" />
+            <Setter Property="Shell.TabBarUnselectedColor" Value="{DynamicResource colTabBarUns}" />
+            <Setter Property="Shell.TabBarTitleColor" Value="{DynamicResource colTabBarTitle}" />
         </Style>
         <!--#endregion-->
-        
-        
+
+
         <!--#region ADD TabBar FlyoutBehavior is INVISIBLE-->
         <Style
             BasedOn="{StaticResource BaseStyle}"
@@ -78,103 +80,96 @@
 
 
     <!--#region TABS SECTOR-->
-    <!--  Home in Flyout GROUP  -->
+    <!--  What's new?  -->
     <ShellItem
-        Title="Home"
-        Icon="{StaticResource icon_fly_home}"
-        FlyoutDisplayOptions="AsSingleItem">
-
-        <!--#region Explore Tab-->
-        <Tab
-            Title="Explore"
-            Icon="{StaticResource icon_tab_explore}">
-            <ShellContent ContentTemplate="{DataTemplate view:DemoPage}" />
-        </Tab>
-        <!--#endregion-->
-
-        <!--#region My order Tab-->
-        <Tab
-            Title="My order"
-            Icon="{StaticResource icon_tab_order}">
-            <ShellContent
-                Title="Current orders"
-                ContentTemplate="{DataTemplate view:DefaultPage}" />
-            <ShellContent
-                Title="Past orders"
-                ContentTemplate="{DataTemplate view:DefaultPage}" />
-        </Tab>
-        <!--#endregion-->
-
-        <!--#region Favourite Tab-->
-        <Tab
-            Title="Favourite"
-            Icon="{StaticResource icon_tab_favorite}">
-            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
-        </Tab>
-        <!--#endregion-->
-
-        <!--#region Profile Tab-->
-        <Tab
-            Title="Profile"
-            Icon="{StaticResource icon_tab_profile}">
-            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
-        </Tab>
-        <!--#endregion-->
+        Title="What's new?"
+        Icon="{StaticResource icon_fly_new}">
+        <ShellContent ContentTemplate="{DataTemplate view:ConstructionPage}" />
     </ShellItem>
     <!--#endregion-->
 
 
     <!--#region FLYOUT SECTOR-->
+    <!--#region Main dashboard-->
     <FlyoutItem
-        Title="Group1"
-        FlyoutDisplayOptions="AsMultipleItems"
-        Icon="{StaticResource icon_fly_SelectGroup}">
-
-        <!--#region Search-->
+        Title="Main dashboard"
+        Icon="{StaticResource icon_fly_maindashboard}"
+        FlyoutDisplayOptions="AsSingleItem">
+        <!--#region Explore Tab-->
         <Tab
-            Title="Search"
-            Icon="{StaticResource icon_fly_search}">
+            Title="Explore"
+            Icon="{StaticResource icon_tab_monettelliuikit}">
             <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 
-        <!--#region Shopping List-->
+        <!--#region Top Bar Tab-->
         <Tab
-            Title="Shopping List"
-            Icon="{StaticResource icon_fly_basket}">
-            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
+            Title="Top Bar"
+            Icon="{StaticResource icon_tab_monettelliuikit}">
+            <ShellContent
+                Title="Top Bar 1"
+                ContentTemplate="{DataTemplate view:DefaultPage}" />
+            <ShellContent
+                Title="Top Bar 2"
+                ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
 
-        <!--#region Weekly Planning-->
+        <!--#region Simple Tab-->
         <Tab
-            Title="Weekly Planning"
-            Icon="{StaticResource icon_fly_ticket}">
+            Title="Simple"
+            Icon="{StaticResource icon_tab_monettelliuikit}">
             <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
         </Tab>
         <!--#endregion-->
     </FlyoutItem>
+    <!--#endregion-->
 
+
+    <!--#region Controls and features-->
     <FlyoutItem
-        Title="Group2"
-        FlyoutDisplayOptions="AsMultipleItems">
-
-        <!--#region Settings-->
-        <Tab
-            Title="Settings"
-            Icon="{StaticResource icon_fly_settings}">
-            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
-        </Tab>
-        <!--#endregion-->
-
-        <!--#region Support-->
-        <Tab
-            Title="Support"
-            Icon="{StaticResource icon_fly_support}">
-            <ShellContent ContentTemplate="{DataTemplate view:DefaultPage}" />
-        </Tab>
-        <!--#endregion-->
+        Title="Controls and features"
+        Icon="{StaticResource icon_fly_controlsandfeatures}">
+        <ShellContent ContentTemplate="{DataTemplate view:ConstructionPage}" />
     </FlyoutItem>
+    <!--#endregion-->
+
+
+    <!--#region Preview-->
+    <FlyoutItem
+        Title="Preview"
+        Icon="{StaticResource icon_fly_preview}">
+        <ShellContent ContentTemplate="{DataTemplate view:ConstructionPage}" />
+    </FlyoutItem>
+    <!--#endregion-->
+
+
+    <!--#region All icons-->
+    <FlyoutItem
+        Title="All icons"
+        Icon="{StaticResource icon_fly_allicons}">
+        <ShellContent ContentTemplate="{DataTemplate view:ConstructionPage}" />
+    </FlyoutItem>
+    <!--#endregion-->
+
+
+    <!--#region Themes-->
+    <FlyoutItem
+        Title="Themes"
+        Icon="{StaticResource icon_fly_themes}">
+        <ShellContent ContentTemplate="{DataTemplate view:ThemesPage}" />
+    </FlyoutItem>
+    <!--#endregion-->
+
+
+    <!--#region About-->
+    <FlyoutItem
+        Title="About"
+        Icon="{StaticResource icon_fly_about}">
+        <ShellContent ContentTemplate="{DataTemplate view:ConstructionPage}" />
+    </FlyoutItem>
+    <!--#endregion-->
     <!--#endregion-->
 
 </Shell>

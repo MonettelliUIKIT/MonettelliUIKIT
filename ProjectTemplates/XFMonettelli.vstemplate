@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" Type="ProjectGroup"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
-        <Name>Monettelli Mobile App (Xamarin.Forms)</Name>
-        <Description>A multiproject template to create applications for iOS, Android and UWP by implementing the "Clean Style Library" with or without Shell.</Description>
+        <Name>MonettelliUIKIT (Xamarin.Forms)</Name>
+        <Description>A multiproject template to create applications for iOS, Android and UWP by implementing the "Clean UI Style Architecture" with or without Shell.</Description>
         <Icon>icon.png</Icon>
         <ProjectType>CSharp</ProjectType>
 
