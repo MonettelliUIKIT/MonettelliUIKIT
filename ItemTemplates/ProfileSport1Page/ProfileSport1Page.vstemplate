@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <TemplateID>ProfileSport1Page</TemplateID>
+    <DefaultName>ProfileName</DefaultName>
+    <Name>Profiles - ProfileSport1Page</Name>
+    <Description>MonettelliUIKIT "ProfileSport1Page" responsive interface</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>icon.png</Icon>
+    <PreviewImage>ProfileSport1Page.png</PreviewImage>
+    <AppliesTo>CSharp + MultiTarget</AppliesTo>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true" ItemType="EmbeddedResource" TargetFileName="\Views\Profiles\$fileinputname$ProfilePage.xaml" >ProfileSport1Page.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="false" TargetFileName="\Views\Profiles\$fileinputname$ProfilePage.xaml.cs" >ProfileSport1Page.xaml.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

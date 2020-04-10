@@ -19,56 +19,84 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
       <Folder Name="Assets" TargetFolderName="Assets">
         <Folder Name="FontIcons" TargetFolderName="FontIcons">
-          <ProjectItem ReplaceParameters="false" TargetFileName="CustomIconFont.ttf">CustomIconFont.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="materialdesignicons-webfont.ttf">materialdesignicons-webfont.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="materialdesignicons-webfont.ttf">materialdesignicons-webfont.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="monettelliuikitfonticons.ttf">monettelliuikitfonticons.ttf</ProjectItem>
         </Folder>
         <Folder Name="FontsFamily" TargetFolderName="FontsFamily">
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Light.ttf">BebasNeue-Light.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Regular.ttf">BebasNeue-Regular.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="BebasNeue-Thin.ttf">BebasNeue-Thin.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Bold.ttf">OpenSans-Bold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-BoldItalic.ttf">OpenSans-BoldItalic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBold.ttf">OpenSans-ExtraBold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-ExtraBoldItalic.ttf">OpenSans-ExtraBoldItalic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Italic.ttf">OpenSans-Italic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Light.ttf">OpenSans-Light.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-LightItalic.ttf">OpenSans-LightItalic.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-Regular.ttf">OpenSans-Regular.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBold.ttf">OpenSans-SemiBold.ttf</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="OpenSans-SemiBoldItalic.ttf">OpenSans-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Light.ttf">BebasNeue-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Regular.ttf">BebasNeue-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BebasNeue-Thin.ttf">BebasNeue-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Bold.ttf">OpenSans-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-BoldItalic.ttf">OpenSans-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-ExtraBold.ttf">OpenSans-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-ExtraBoldItalic.ttf">OpenSans-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Italic.ttf">OpenSans-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Light.ttf">OpenSans-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-LightItalic.ttf">OpenSans-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-Regular.ttf">OpenSans-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-SemiBold.ttf">OpenSans-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="OpenSans-SemiBoldItalic.ttf">OpenSans-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Black.ttf">Poppins-Black.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-BlackItalic.ttf">Poppins-BlackItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Bold.ttf">Poppins-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-BoldItalic.ttf">Poppins-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraBold.ttf">Poppins-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraBoldItalic.ttf">Poppins-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraLight.ttf">Poppins-ExtraLight.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ExtraLightItalic.ttf">Poppins-ExtraLightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Italic.ttf">Poppins-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Light.ttf">Poppins-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-LightItalic.ttf">Poppins-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Medium.ttf">Poppins-Medium.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-MediumItalic.ttf">Poppins-MediumItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Regular.ttf">Poppins-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-SemiBold.ttf">Poppins-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-SemiBoldItalic.ttf">Poppins-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-Thin.ttf">Poppins-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Poppins-ThinItalic.ttf">Poppins-ThinItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Black.ttf">SourceSansPro-Black.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-BlackItalic.ttf">SourceSansPro-BlackItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Bold.ttf">SourceSansPro-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-BoldItalic.ttf">SourceSansPro-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-ExtraLight.ttf">SourceSansPro-ExtraLight.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-ExtraLightItalic.ttf">SourceSansPro-ExtraLightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Italic.ttf">SourceSansPro-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Light.ttf">SourceSansPro-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-LightItalic.ttf">SourceSansPro-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-Regular.ttf">SourceSansPro-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-SemiBold.ttf">SourceSansPro-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SourceSansPro-SemiBoldItalic.ttf">SourceSansPro-SemiBoldItalic.ttf</ProjectItem>
         </Folder>
-        <ProjectItem ReplaceParameters="false" TargetFileName="LargeTile.scale-100.png">LargeTile.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="LargeTile.scale-200.png">LargeTile.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="LargeTile.scale-400.png">LargeTile.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SmallTile.scale-100.png">SmallTile.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SmallTile.scale-200.png">SmallTile.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SmallTile.scale-400.png">SmallTile.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-100.png">SplashScreen.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-200.png">SplashScreen.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-400.png">SplashScreen.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square150x150Logo.scale-100.png">Square150x150Logo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square150x150Logo.scale-200.png">Square150x150Logo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square150x150Logo.scale-400.png">Square150x150Logo.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.altform-unplated_targetsize-16.png">Square44x44Logo.altform-unplated_targetsize-16.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.altform-unplated_targetsize-256.png">Square44x44Logo.altform-unplated_targetsize-256.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.altform-unplated_targetsize-48.png">Square44x44Logo.altform-unplated_targetsize-48.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.scale-100.png">Square44x44Logo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.scale-200.png">Square44x44Logo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.scale-400.png">Square44x44Logo.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.targetsize-16.png">Square44x44Logo.targetsize-16.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.targetsize-256.png">Square44x44Logo.targetsize-256.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.targetsize-48.png">Square44x44Logo.targetsize-48.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-100.png">StoreLogo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-200.png">StoreLogo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-400.png">StoreLogo.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-100.png">Wide310x150Logo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-200.png">Wide310x150Logo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-400.png">Wide310x150Logo.scale-400.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LargeTile.scale-100.png">LargeTile.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LargeTile.scale-200.png">LargeTile.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LargeTile.scale-400.png">LargeTile.scale-400.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SmallTile.scale-100.png">SmallTile.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SmallTile.scale-200.png">SmallTile.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SmallTile.scale-400.png">SmallTile.scale-400.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SplashScreen.scale-100.png">SplashScreen.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SplashScreen.scale-200.png">SplashScreen.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SplashScreen.scale-400.png">SplashScreen.scale-400.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square150x150Logo.scale-100.png">Square150x150Logo.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square150x150Logo.scale-200.png">Square150x150Logo.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square150x150Logo.scale-400.png">Square150x150Logo.scale-400.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.altform-unplated_targetsize-16.png">Square44x44Logo.altform-unplated_targetsize-16.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.altform-unplated_targetsize-256.png">Square44x44Logo.altform-unplated_targetsize-256.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.altform-unplated_targetsize-48.png">Square44x44Logo.altform-unplated_targetsize-48.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.scale-100.png">Square44x44Logo.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.scale-200.png">Square44x44Logo.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.scale-400.png">Square44x44Logo.scale-400.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.targetsize-16.png">Square44x44Logo.targetsize-16.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.targetsize-256.png">Square44x44Logo.targetsize-256.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Square44x44Logo.targetsize-48.png">Square44x44Logo.targetsize-48.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="StoreLogo.scale-100.png">StoreLogo.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="StoreLogo.scale-200.png">StoreLogo.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="StoreLogo.scale-400.png">StoreLogo.scale-400.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Wide310x150Logo.scale-100.png">Wide310x150Logo.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Wide310x150Logo.scale-200.png">Wide310x150Logo.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Wide310x150Logo.scale-400.png">Wide310x150Logo.scale-400.png</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="false" TargetFileName="img_bgflyout.png">img_bgflyout.png</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="img_profile.png">img_profile.png</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Package.appxmanifest">Package.appxmanifest</ProjectItem>
@@ -76,6 +104,14 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Default.rd.xml">Default.rd.xml</ProjectItem>
       </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svg_burn.svg">svg_burn.svg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_darktheme.svg">svg_preview_darktheme.svg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_instagramdarktheme.svg">svg_preview_instagramdarktheme.svg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_instagrameleganttheme.svg">svg_preview_instagrameleganttheme.svg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_lighttheme.svg">svg_preview_lighttheme.svg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svg_running.svg">svg_running.svg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svg_star_badge.svg">svg_star_badge.svg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="weareunderconstruction.json">weareunderconstruction.json</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

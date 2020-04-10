@@ -1,7 +1,10 @@
-﻿using System;
+﻿using FFImageLoading.Forms.Platform;
+using Lottie.Forms.UWP.Renderers;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -14,6 +17,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Xamarin.Forms.PancakeView.UWP;
 
 namespace $safeprojectname$
 {
@@ -49,9 +53,36 @@ namespace $safeprojectname$
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
+                // SECTOR1 FFImageLoading
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                CachedImageRenderer.Init();
+                var config = new FFImageLoading.Config.Configuration()
+                {
+                    VerboseLogging = false,
+                    VerbosePerformanceLogging = false,
+                    VerboseMemoryCacheLogging = false,
+                    VerboseLoadingCancelledLogging = false,
+                };
+                FFImageLoading.ImageService.Instance.Initialize(config);
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                List<Assembly> assembliesToInclude = new List<Assembly>();
+                // SECTOR2 FFImageLoading
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                assembliesToInclude.Add(typeof(CachedImageRenderer).GetTypeInfo().Assembly);
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                // SECTOR1 PancakeView
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                assembliesToInclude.Add(typeof(PancakeViewRenderer).GetTypeInfo().Assembly);
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                // SECTOR1 LOTTIE FOR UWP
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                assembliesToInclude.Add(typeof(AnimationViewRenderer).GetTypeInfo().Assembly);
+                // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
                 Xamarin.Forms.Forms.SetFlags("Shell_UWP_Experimental", "Visual_Experimental", "CollectionView_Experimental", "FastRenderers_Experimental");
-                Xamarin.Forms.Forms.Init(e);
+                Xamarin.Forms.Forms.Init(e, assembliesToInclude);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
