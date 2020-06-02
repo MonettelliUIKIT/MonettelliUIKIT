@@ -13,7 +13,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colSec}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH4_34}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_BebasNeue}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Bold" />
     </Style>
     <!--#endregion-->
 
@@ -23,7 +23,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH5_24}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_BebasNeue}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Bold" />
     </Style>
     <!--#endregion-->
 
@@ -33,7 +33,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_SourceSansPro}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Bold" />
     </Style>
 
     <Style
@@ -41,7 +41,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colQua}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
-        <Setter Property="FontFamily" Value="{StaticResource BlackFont_SourceSansPro}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Black" />
     </Style>
     <!--#endregion-->
 
@@ -51,7 +51,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_SourceSansPro}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Bold" />
     </Style>
 
     <Style
@@ -59,7 +59,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colTer}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_BebasNeue}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Regular" />
     </Style>
 
     <Style
@@ -67,7 +67,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colSec}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_BebasNeue}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Regular" />
     </Style>
 
     <Style
@@ -75,7 +75,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colTer}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_BebasNeue}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Regular" />
     </Style>
     <!--#endregion-->
 
@@ -85,7 +85,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colTer}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeCap_12}" />
-        <Setter Property="FontFamily" Value="{StaticResource SemiBoldFont_SourceSansPro}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_SemiBold" />
     </Style>
     <!--#endregion-->
 
@@ -95,7 +95,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colTer}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeOver_10}" />
-        <Setter Property="FontFamily" Value="{StaticResource SemiBoldFont_SourceSansPro}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_SemiBold" />
     </Style>
     <!--#endregion-->
 

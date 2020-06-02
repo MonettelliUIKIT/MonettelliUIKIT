@@ -17,8 +17,7 @@
 
 
     <Shell.TitleView>
-        <StackLayout
-            Padding="0,0,50,0">
+        <StackLayout Padding="0,0,50,0">
 
             <Label
                 CharacterSpacing="2"

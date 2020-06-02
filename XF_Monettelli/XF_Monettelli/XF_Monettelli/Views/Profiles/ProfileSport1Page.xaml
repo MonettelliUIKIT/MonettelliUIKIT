@@ -93,7 +93,7 @@
                                 HeightRequest="80"
                                 LoadingPlaceholder="Logo"
                                 RetryDelay="450"
-                                Source="{MarkupExtension:EmbeddedImage XF_Monettelli.Images.img_profile.png}"
+                                Source="{MarkupExtension:EmbeddedImage XF_Monettelli.Resources.Images.img_profile.png}"
                                 WidthRequest="80">
                                 <ff:CachedImage.Transformations>
                                     <ffTrans:CircleTransformation />
@@ -151,7 +151,7 @@
                                     HeightRequest="40"
                                     LoadingPlaceholder="Logo"
                                     RetryDelay="450"
-                                    Source="svg_star_badge.svg" />
+                                    Source="resource://XF_Monettelli.Resources.SVGs.svg_star_badge.svg" />
 
                                 <Label
                                     Grid.Row="0"
@@ -219,7 +219,7 @@
                                         HorizontalOptions="CenterAndExpand"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_running.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_running.svg"
                                         WidthRequest="48" />
 
                                     <Label
@@ -260,7 +260,7 @@
                                         HorizontalOptions="CenterAndExpand"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_burn.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_burn.svg"
                                         WidthRequest="48" />
 
                                     <Label
@@ -322,7 +322,7 @@
                                         CacheDuration="30"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_running.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_running.svg"
                                         VerticalOptions="Center" />
 
                                     <Label
@@ -339,7 +339,7 @@
                                         CacheDuration="30"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_burn.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_burn.svg"
                                         VerticalOptions="Center" />
 
                                     <Label
@@ -383,7 +383,7 @@
                                         CacheDuration="30"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_running.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_running.svg"
                                         VerticalOptions="Center" />
 
                                     <Label
@@ -400,7 +400,7 @@
                                         CacheDuration="30"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_burn.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_burn.svg"
                                         VerticalOptions="Center" />
 
                                     <Label
@@ -444,7 +444,7 @@
                                         CacheDuration="30"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_running.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_running.svg"
                                         VerticalOptions="Center" />
 
                                     <Label
@@ -461,7 +461,7 @@
                                         CacheDuration="30"
                                         LoadingPlaceholder="Logo"
                                         RetryDelay="450"
-                                        Source="svg_burn.svg"
+                                        Source="resource://XF_Monettelli.Resources.SVGs.svg_burn.svg"
                                         VerticalOptions="Center" />
 
                                     <Label

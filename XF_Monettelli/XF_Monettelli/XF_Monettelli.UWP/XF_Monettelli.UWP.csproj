@@ -131,29 +131,6 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="svg_burn.svg">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </Content>
-    <Content Include="svg_preview_darktheme.svg">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </Content>
-    <Content Include="svg_preview_instagramdarktheme.svg">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </Content>
-    <Content Include="svg_preview_instagrameleganttheme.svg">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </Content>
-    <Content Include="svg_preview_lighttheme.svg">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </Content>
-    <Content Include="svg_running.svg">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="svg_star_badge.svg">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -170,7 +147,7 @@
       <Version>3.0.3</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp.Views.Forms">
-      <Version>1.68.1.1</Version>
+      <Version>1.68.3</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.FFImageLoading.Forms">
       <Version>2.4.11.982</Version>
@@ -181,11 +158,11 @@
     <PackageReference Include="Xamarin.FFImageLoading.Transformations">
       <Version>2.4.11.982</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.9" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.800" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
     <PackageReference Include="Xamarin.Forms.PancakeView">
-      <Version>1.3.7</Version>
+      <Version>1.4.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -193,147 +170,6 @@
       <Project>{1CA81EDF-43DD-4202-988C-61EF98F3CB42}</Project>
       <Name>XF_Monettelli</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-Bold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontIcons\materialdesignicons-webfont.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\BebasNeue-Thin.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-Bold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-BoldItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-ExtraBold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-ExtraBoldItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-Italic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-Light.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-LightItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-Regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-SemiBold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\OpenSans-SemiBoldItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\BebasNeue-Bold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\BebasNeue-Book.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\BebasNeue-Light.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\BebasNeue-Regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-BoldItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-ExtraBold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-ExtraBoldItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-ExtraLight.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-ExtraLightItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-Italic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-Light.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-LightItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-Medium.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-MediumItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-Regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-SemiBold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-SemiBoldItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-Thin.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-ThinItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-Black.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\Poppins-BlackItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontIcons\monettelliuikitfonticons.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-Black.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-BlackItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-Bold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-BoldItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-ExtraLight.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-ExtraLightItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-Italic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-Light.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-LightItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-Regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-SemiBold.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\FontsFamily\SourceSansPro-SemiBoldItalic.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="weareunderconstruction.json" />

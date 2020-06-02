@@ -18,15 +18,15 @@
 
   <ItemGroup>
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="3.0.3" />
-    <PackageReference Include="Refractored.MvvmHelpers" Version="1.3.0" />
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1.1" />
+    <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.3" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
-    <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.3.7" />
-    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.5.0.396" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.800" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.2" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.6.0.800" />
   </ItemGroup>
 
   <ItemGroup>
@@ -55,11 +55,118 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Images\img_profile.png" />
+    <None Remove="Resources\FontFamily\BebasNeue-Bold.ttf" />
+    <None Remove="Resources\FontFamily\BebasNeue-Book.ttf" />
+    <None Remove="Resources\FontFamily\BebasNeue-Light.ttf" />
+    <None Remove="Resources\FontFamily\BebasNeue-Regular.ttf" />
+    <None Remove="Resources\FontFamily\BebasNeue-Thin.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-Bold.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-BoldItalic.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-ExtraBold.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-ExtraBoldItalic.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-Italic.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-Light.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-LightItalic.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-Regular.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-SemiBold.ttf" />
+    <None Remove="Resources\FontFamily\OpenSans-SemiBoldItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-Black.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-BlackItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-Bold.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-BoldItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-ExtraBold.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-ExtraBoldItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-ExtraLight.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-ExtraLightItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-Italic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-Light.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-LightItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-Medium.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-MediumItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-Regular.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-SemiBold.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-SemiBoldItalic.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-Thin.ttf" />
+    <None Remove="Resources\FontFamily\Poppins-ThinItalic.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-Black.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-BlackItalic.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-Bold.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-BoldItalic.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-ExtraLight.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-ExtraLightItalic.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-Italic.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-Light.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-LightItalic.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-Regular.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-SemiBold.ttf" />
+    <None Remove="Resources\FontFamily\SourceSansPro-SemiBoldItalic.ttf" />
+    <None Remove="Resources\FontIcons\materialdesignicons-webfont.ttf" />
+    <None Remove="Resources\FontIcons\monettelliuikitfonticons.ttf" />
+    <None Remove="Resources\SVGs\svg_burn.svg" />
+    <None Remove="Resources\SVGs\svg_preview_darktheme.svg" />
+    <None Remove="Resources\SVGs\svg_preview_instagramdarktheme.svg" />
+    <None Remove="Resources\SVGs\svg_preview_instagrameleganttheme.svg" />
+    <None Remove="Resources\SVGs\svg_preview_lighttheme.svg" />
+    <None Remove="Resources\SVGs\svg_running.svg" />
+    <None Remove="Resources\SVGs\svg_star_badge.svg" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Images\img_profile.png" />
+    <EmbeddedResource Include="Resources\Images\img_profile.png" />
+    <EmbeddedResource Include="Resources\FontFamily\BebasNeue-Bold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\BebasNeue-Book.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\BebasNeue-Light.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\BebasNeue-Regular.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\BebasNeue-Thin.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-Bold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-BoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-ExtraBold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-ExtraBoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-Italic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-Light.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-LightItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-Regular.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-SemiBold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\OpenSans-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-Black.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-BlackItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-Bold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-BoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-ExtraBold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-ExtraBoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-ExtraLight.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-ExtraLightItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-Italic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-Light.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-LightItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-Medium.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-MediumItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-Regular.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-SemiBold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-Thin.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\Poppins-ThinItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-Black.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-BlackItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-Bold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-BoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-ExtraLight.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-ExtraLightItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-Italic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-Light.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-LightItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-Regular.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-SemiBold.ttf" />
+    <EmbeddedResource Include="Resources\FontFamily\SourceSansPro-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\FontIcons\materialdesignicons-webfont.ttf" />
+    <EmbeddedResource Include="Resources\FontIcons\monettelliuikitfonticons.ttf" />
+    <EmbeddedResource Include="Resources\SVGs\svg_burn.svg" />
+    <EmbeddedResource Include="Resources\SVGs\svg_preview_darktheme.svg" />
+    <EmbeddedResource Include="Resources\SVGs\svg_preview_instagramdarktheme.svg" />
+    <EmbeddedResource Include="Resources\SVGs\svg_preview_instagrameleganttheme.svg" />
+    <EmbeddedResource Include="Resources\SVGs\svg_preview_lighttheme.svg" />
+    <EmbeddedResource Include="Resources\SVGs\svg_running.svg" />
+    <EmbeddedResource Include="Resources\SVGs\svg_star_badge.svg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="AppShell.xaml">

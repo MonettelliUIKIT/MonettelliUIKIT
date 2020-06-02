@@ -14,7 +14,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colSec}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH5_24}" />
-        <Setter Property="FontFamily" Value="{StaticResource BoldFont_SourceSansPro}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Bold" />
     </Style>
 
     <Style
@@ -22,7 +22,7 @@
         TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource colQua}" />
         <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
-        <Setter Property="FontFamily" Value="{StaticResource RegularFont_SourceSansPro}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Regular" />
     </Style>
     <!--#endregion-->
     <!--#endregion-->

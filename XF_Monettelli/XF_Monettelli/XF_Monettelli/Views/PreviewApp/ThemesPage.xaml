@@ -88,7 +88,7 @@
                         CacheDuration="30"
                         LoadingPlaceholder="Logo"
                         RetryDelay="450"
-                        Source="svg_preview_lighttheme.svg">
+                        Source="resource://XF_Monettelli.Resources.SVGs.svg_preview_lighttheme.svg">
                         <ffSvg:SvgCachedImage.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Light_Tapped" />
                         </ffSvg:SvgCachedImage.GestureRecognizers>
@@ -121,7 +121,7 @@
                         CacheDuration="30"
                         LoadingPlaceholder="Logo"
                         RetryDelay="450"
-                        Source="svg_preview_darktheme.svg">
+                        Source="resource://XF_Monettelli.Resources.SVGs.svg_preview_darktheme.svg">
                         <ffSvg:SvgCachedImage.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Dark_Tapped" />
                         </ffSvg:SvgCachedImage.GestureRecognizers>
@@ -154,7 +154,7 @@
                         CacheDuration="30"
                         LoadingPlaceholder="Logo"
                         RetryDelay="450"
-                        Source="svg_preview_instagramdarktheme.svg">
+                        Source="resource://XF_Monettelli.Resources.SVGs.svg_preview_instagramdarktheme.svg">
                         <ffSvg:SvgCachedImage.GestureRecognizers>
                             <TapGestureRecognizer Tapped="InstagramDark_Tapped" />
                         </ffSvg:SvgCachedImage.GestureRecognizers>
@@ -187,7 +187,7 @@
                         CacheDuration="30"
                         LoadingPlaceholder="Logo"
                         RetryDelay="450"
-                        Source="svg_preview_instagrameleganttheme.svg">
+                        Source="resource://XF_Monettelli.Resources.SVGs.svg_preview_instagrameleganttheme.svg">
                         <ffSvg:SvgCachedImage.GestureRecognizers>
                             <TapGestureRecognizer Tapped="InstagramElegant_Tapped" />
                         </ffSvg:SvgCachedImage.GestureRecognizers>
