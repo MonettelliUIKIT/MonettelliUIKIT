@@ -1,0 +1,133 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>XF_Monettelli</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>XF_Monettelli</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="XF_Monettelli.csproj" File="XF_Monettelli.csproj" ReplaceParameters="true">
+      <Folder Name="CodeFontIcons" TargetFolderName="CodeFontIcons">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MaterialFontIcons.cs">MaterialFontIcons.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MonettelliFontIcons.cs">MonettelliFontIcons.cs</ProjectItem>
+      </Folder>
+      <Folder Name="MarkupExtension" TargetFolderName="MarkupExtension">
+        <ProjectItem ReplaceParameters="true" TargetFileName="EmbeddedImageExtension.cs">EmbeddedImageExtension.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models" />
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <Folder Name="FontFamily" TargetFolderName="FontFamily">
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="BebasNeue-Bold.ttf">BebasNeue-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="BebasNeue-Book.ttf">BebasNeue-Book.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="BebasNeue-Light.ttf">BebasNeue-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="BebasNeue-Regular.ttf">BebasNeue-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="BebasNeue-Thin.ttf">BebasNeue-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-Bold.ttf">OpenSans-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-BoldItalic.ttf">OpenSans-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-ExtraBold.ttf">OpenSans-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-ExtraBoldItalic.ttf">OpenSans-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-Italic.ttf">OpenSans-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-Light.ttf">OpenSans-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-LightItalic.ttf">OpenSans-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-Regular.ttf">OpenSans-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-SemiBold.ttf">OpenSans-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="OpenSans-SemiBoldItalic.ttf">OpenSans-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-Black.ttf">Poppins-Black.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-BlackItalic.ttf">Poppins-BlackItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-Bold.ttf">Poppins-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-BoldItalic.ttf">Poppins-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-ExtraBold.ttf">Poppins-ExtraBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-ExtraBoldItalic.ttf">Poppins-ExtraBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-ExtraLight.ttf">Poppins-ExtraLight.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-ExtraLightItalic.ttf">Poppins-ExtraLightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-Italic.ttf">Poppins-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-Light.ttf">Poppins-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-LightItalic.ttf">Poppins-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-Medium.ttf">Poppins-Medium.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-MediumItalic.ttf">Poppins-MediumItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-Regular.ttf">Poppins-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-SemiBold.ttf">Poppins-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-SemiBoldItalic.ttf">Poppins-SemiBoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-Thin.ttf">Poppins-Thin.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="Poppins-ThinItalic.ttf">Poppins-ThinItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-Black.ttf">SourceSansPro-Black.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-BlackItalic.ttf">SourceSansPro-BlackItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-Bold.ttf">SourceSansPro-Bold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-BoldItalic.ttf">SourceSansPro-BoldItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-ExtraLight.ttf">SourceSansPro-ExtraLight.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-ExtraLightItalic.ttf">SourceSansPro-ExtraLightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-Italic.ttf">SourceSansPro-Italic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-Light.ttf">SourceSansPro-Light.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-LightItalic.ttf">SourceSansPro-LightItalic.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-Regular.ttf">SourceSansPro-Regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-SemiBold.ttf">SourceSansPro-SemiBold.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="SourceSansPro-SemiBoldItalic.ttf">SourceSansPro-SemiBoldItalic.ttf</ProjectItem>
+        </Folder>
+        <Folder Name="FontIcons" TargetFolderName="FontIcons">
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="materialdesignicons-webfont.ttf">materialdesignicons-webfont.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" ItemType="EmbeddedResource" TargetFileName="monettelliuikitfonticons.ttf">monettelliuikitfonticons.ttf</ProjectItem>
+        </Folder>
+        <Folder Name="Images" TargetFolderName="Images" />
+        <Folder Name="SVGs" TargetFolderName="SVGs">
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_darktheme.svg">svg_preview_darktheme.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_instagramdarktheme.svg">svg_preview_instagramdarktheme.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_instagrameleganttheme.svg">svg_preview_instagrameleganttheme.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="svg_preview_lighttheme.svg">svg_preview_lighttheme.svg</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Styles" TargetFolderName="Styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="General.xaml">General.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Icons.xaml">Icons.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Responsive.xaml">Responsive.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Texts.xaml">Texts.xaml</ProjectItem>
+      </Folder>
+      <Folder Name="Themes" TargetFolderName="Themes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml">DarkTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DarkTheme.xaml.cs">DarkTheme.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramDarkTheme.xaml">InstagramDarkTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramDarkTheme.xaml.cs">InstagramDarkTheme.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramElegantTheme.xaml">InstagramElegantTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InstagramElegantTheme.xaml.cs">InstagramElegantTheme.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LightTheme.xaml">LightTheme.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LightTheme.xaml.cs">LightTheme.xaml.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels" />
+      <Folder Name="Views" TargetFolderName="Views">
+        <Folder Name="PreviewApp" TargetFolderName="PreviewApp">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ConstructionPage.xaml">ConstructionPage.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ConstructionPage.xaml.cs">ConstructionPage.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml">DefaultPage.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="DefaultPage.xaml.cs">DefaultPage.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml">Styles.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml.cs">Styles.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ThemesPage.xaml">ThemesPage.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ThemesPage.xaml.cs">ThemesPage.xaml.cs</ProjectItem>
+        </Folder>
+        <Folder Name="ShellTemplates" TargetFolderName="ShellTemplates">
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutHeaderTemplate.xaml">FlyoutHeaderTemplate.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutHeaderTemplate.xaml.cs">FlyoutHeaderTemplate.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutItemTemplate.xaml">FlyoutItemTemplate.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutItemTemplate.xaml.cs">FlyoutItemTemplate.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml">FlyoutMenuItemTemplate.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="FlyoutMenuItemTemplate.xaml.cs">FlyoutMenuItemTemplate.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml">Styles.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Styles.xaml.cs">Styles.xaml.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppShell.xaml">AppShell.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppShell.xaml.cs">AppShell.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

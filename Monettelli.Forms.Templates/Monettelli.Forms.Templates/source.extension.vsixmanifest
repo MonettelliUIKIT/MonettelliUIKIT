@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Monettelli.Forms.Templates" Version="2.0" Language="en-US" Publisher="Daniel Angel Monettelli L." />
+        <Identity Id="Monettelli.Forms.Templates" Version="3.0.0" Language="en-US" Publisher="Daniel Angel Monettelli L." />
         <DisplayName>Monettelli.Forms.Templates</DisplayName>
-        <Description xml:space="preserve">A multiproject template to create applications for iOS, Android and UWP in Xamarin.Forms by implementing the "Clean UI Style Architecture" with or without Shell.</Description>
-        <MoreInfo>https://danielmonettelli.github.io/monettelliuikitdoc/components.html</MoreInfo>
+        <Description xml:space="preserve">A multiproject template to create applications for iOS and Android in Xamarin.Forms by implementing the "Clean UI Style Architecture" with or without Shell.</Description>
+        <MoreInfo>https://danielmonettelli.github.io/MonettelliUIKITDOCS/components.html</MoreInfo>
         <License>license.txt</License>
-        <GettingStartedGuide>https://danielmonettelli.github.io/monettelliuikitdoc/start.html</GettingStartedGuide>
-        <ReleaseNotes>https://danielmonettelli.github.io/monettelliuikitdoc/news.html</ReleaseNotes>
+        <GettingStartedGuide>https://danielmonettelli.github.io/MonettelliUIKITDOCS/start.html</GettingStartedGuide>
+        <ReleaseNotes>https://danielmonettelli.github.io/MonettelliUIKITDOCS/news.html</ReleaseNotes>
         <Icon>icon.png</Icon>
         <PreviewImage>icon.png</PreviewImage>
-        <Tags>Xamarin.Forms, Cross-Platform, Xamarin, iOS, Android, UWP, XAML</Tags>
+        <Tags>Xamarin.Forms, Cross-Platform, Xamarin, iOS, Android, XAML</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
@@ -21,7 +21,7 @@
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\XFMonettelli.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\XF_Monettelli.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\ProfileSport1Page.zip" />
     </Assets>
     <Prerequisites>

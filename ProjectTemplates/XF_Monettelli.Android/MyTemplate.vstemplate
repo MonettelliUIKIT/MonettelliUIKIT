@@ -1,0 +1,72 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>XF_Monettelli.Android</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>XF_Monettelli.Android</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="XF_Monettelli.Android.csproj" File="XF_Monettelli.Android.csproj" ReplaceParameters="true">
+      <Folder Name="Assets" TargetFolderName="Assets">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="weareunderconstruction.json">weareunderconstruction.json</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainActivity.cs">MainActivity.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+        <Folder Name="drawable" TargetFolderName="drawable" />
+        <Folder Name="drawable-hdpi" TargetFolderName="drawable-hdpi" />
+        <Folder Name="drawable-ldpi" TargetFolderName="drawable-ldpi" />
+        <Folder Name="drawable-mdpi" TargetFolderName="drawable-mdpi" />
+        <Folder Name="drawable-xhdpi" TargetFolderName="drawable-xhdpi" />
+        <Folder Name="drawable-xxhdpi" TargetFolderName="drawable-xxhdpi" />
+        <Folder Name="drawable-xxxhdpi" TargetFolderName="drawable-xxxhdpi" />
+        <Folder Name="layout" TargetFolderName="layout">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Tabbar.xml">Tabbar.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Toolbar.xml">Toolbar.xml</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-anydpi-v26" TargetFolderName="mipmap-anydpi-v26">
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.xml">icon.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon_round.xml">icon_round.xml</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-hdpi" TargetFolderName="mipmap-hdpi">
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-mdpi" TargetFolderName="mipmap-mdpi">
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xhdpi" TargetFolderName="mipmap-xhdpi">
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xxhdpi" TargetFolderName="mipmap-xxhdpi">
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <Folder Name="mipmap-xxxhdpi" TargetFolderName="mipmap-xxxhdpi">
+          <ProjectItem ReplaceParameters="true" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="launcher_foreground.png">launcher_foreground.png</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource.designer.cs">Resource.designer.cs</ProjectItem>
+        <Folder Name="values" TargetFolderName="values">
+          <ProjectItem ReplaceParameters="true" TargetFileName="colors.xml">colors.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

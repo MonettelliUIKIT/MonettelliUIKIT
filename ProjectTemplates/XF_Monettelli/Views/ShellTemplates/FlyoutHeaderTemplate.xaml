@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<yummy:PancakeView
+    x:Class="$safeprojectname$.Views.ShellTemplates.FlyoutHeaderTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:MarkupExtension="clr-namespace:$safeprojectname$.MarkupExtension;assembly=$safeprojectname$"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    Padding="0"
+    yummy:BackgroundGradientStartColor="{DynamicResource colStartSurf3}"
+    yummy:BackgroundGradientEndColor="{DynamicResource colEndSurf3}"
+    yummy:BackgroundGradientAngle="120"
+    HeightRequest="152"
+    HasShadow="False"
+    mc:Ignorable="d">
+
+
+    <yummy:PancakeView.Resources>
+        <ResourceDictionary Source="Styles.xaml" />
+    </yummy:PancakeView.Resources>
+
+
+    <Grid
+        Padding="16,0"
+        ColumnSpacing="13"
+        VerticalOptions="Center">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Image
+            Grid.Row="0"
+            Grid.Column="0"
+            Source="{StaticResource icon_brand_monettelliuikit}"
+            VerticalOptions="Center"
+            HorizontalOptions="Start"
+            HeightRequest="90"
+            WidthRequest="90"
+            Aspect="AspectFill" />
+
+        <StackLayout
+            Grid.Row="0"
+            Grid.Column="1"
+            Spacing="-2"
+            VerticalOptions="Center">
+            
+            <Label
+                Text="Monettelli"
+                Style="{StaticResource TxtH5Flyout_1}" />
+
+            <Label
+                Text="UI KIT"
+                Style="{StaticResource TxtH5Flyout_1}" />
+        </StackLayout>
+
+    </Grid>
+
+</yummy:PancakeView>

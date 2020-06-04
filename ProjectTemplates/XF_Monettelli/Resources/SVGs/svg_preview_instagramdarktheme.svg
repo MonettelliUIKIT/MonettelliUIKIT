@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="818.09" height="1739.771" viewBox="0 0 818.09 1739.771">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M78,0H668a78,78,0,0,1,78,78V1494a78,78,0,0,1-78,78H78a78,78,0,0,1-78-78V78A78,78,0,0,1,78,0Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6397"/>
+      <stop offset="0.498" stop-color="#ff8283"/>
+      <stop offset="1" stop-color="#ffab68"/>
+    </linearGradient>
+    <filter id="Trazado_637" x="78" y="444" width="295" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_637-2" x="438" y="444" width="295" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_637-3" x="78" y="804" width="295" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_637-4" x="438" y="804" width="295" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_637-5" x="78" y="1164" width="295" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_637-6" x="438" y="1164" width="295" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="svg_preview_instagramdarktheme" transform="translate(8298 -17168)">
+    <g id="Pixel_4_Clay_White" data-name="Pixel 4 / Clay / White" transform="translate(-8298 17168)">
+      <g id="Pixel_4_Clay_White-2" data-name="Pixel 4 Clay White">
+        <path id="power-button" d="M10.627,1.857,2.669.793S1.343.488,1.343,59.3s1.326,58.5,1.326,58.5l7.958-.842Z" transform="translate(807.463 394.249)" fill="#5a5a5a"/>
+        <path id="volume-button" d="M10.627,3.73,2.669,1.593S1.343.98,1.343,119.09s1.326,117.5,1.326,117.5l7.958-1.691Z" transform="translate(807.463 632.205)" fill="#5a5a5a"/>
+        <path id="body" d="M810.867,166.028h0v-18.94c0-5.31-.168-10.62-.168-16.108a268.6,268.6,0,0,0-2.853-34.869,120.04,120.04,0,0,0-10.405-33.1,111.444,111.444,0,0,0-19.467-28.321A106.385,106.385,0,0,0,719.743,3.186,188.246,188.246,0,0,0,686.682.176C681.648,0,676.613,0,671.411,0H139.456c-5.034,0-10.068.176-15.271.176a229.9,229.9,0,0,0-33.06,3.01A106.39,106.39,0,0,0,32.892,34.691,111.465,111.465,0,0,0,13.425,63.012,120.042,120.042,0,0,0,3.02,96.112,220.413,220.413,0,0,0,.167,130.98C0,136.29,0,141.6,0,147.088V1592.681c0,5.31.167,10.62.167,16.108a268.778,268.778,0,0,0,2.853,34.87,120.049,120.049,0,0,0,10.405,33.1,111.4,111.4,0,0,0,19.467,28.321,106.378,106.378,0,0,0,58.233,31.507,188.232,188.232,0,0,0,33.06,3.008c5.035.178,10.068.178,15.271.178H671.411c5.034,0,10.069-.178,15.271-.178a229.668,229.668,0,0,0,33.061-3.008,106.38,106.38,0,0,0,58.232-31.507,111.4,111.4,0,0,0,19.467-28.321,120.047,120.047,0,0,0,10.4-33.1,220.432,220.432,0,0,0,2.853-34.87c.167-5.31.167-10.62.167-16.108V166.028Z" transform="translate(0 0)" fill="#5a5a5a"/>
+        <path id="camera" d="M23.655.921a22,22,0,0,1,22,22v.093a22,22,0,1,1-44,0v-.093A22,22,0,0,1,23.655.921Z" transform="translate(183.745 51.208)" fill="#0a0a0a"/>
+        <path id="sensor1" d="M10.766,0A10.767,10.767,0,0,1,21.532,10.768v.045c0,.38-.02,23.259-.058,23.629a10.767,10.767,0,0,1-21.442-.29C.011,33.877,0,11.095,0,10.814v-.045A10.767,10.767,0,0,1,10.766,0Z" transform="translate(251.311 52.656)" fill="#0a0a0a"/>
+        <path id="sensor2" d="M7.55.294a7.022,7.022,0,0,1,7.021,7.023v.03a7.021,7.021,0,1,1-14.043,0v-.03A7.022,7.022,0,0,1,7.55.294Z" transform="translate(254.486 58.184)" fill="#3d3d3d"/>
+        <path id="sensor3" d="M7.55.294a7.022,7.022,0,0,1,7.021,7.023v.03a7.021,7.021,0,1,1-14.043,0v-.03A7.022,7.022,0,0,1,7.55.294Z" transform="translate(254.486 77.119)" fill="#3d3d3d"/>
+        <path id="speaker" d="M6.962.623h96.752a6.4,6.4,0,0,1,6.261,6.144,6.4,6.4,0,0,1-6.261,6.144H6.962A6.4,6.4,0,0,1,.7,6.767,6.4,6.4,0,0,1,6.962.623Z" transform="translate(353.592 63.803)" fill="#0a0a0a"/>
+      </g>
+      <g id="screen" transform="translate(32 113)">
+        <path id="Mask-2" data-name="Mask" d="M78,0H668a78,78,0,0,1,78,78V1494a78,78,0,0,1-78,78H78a78,78,0,0,1-78-78V78A78,78,0,0,1,78,0Z" fill="none"/>
+        <g id="screen-2" data-name="screen" clip-path="url(#clip-path)">
+          <g id="screen-3" data-name="screen">
+            <rect id="Rectangle" width="746" height="1572" fill="#121212"/>
+            <path id="Trazado_635" data-name="Trazado 635" d="M0,0H746V196H0Z" fill="#121212"/>
+            <path id="Trazado_636" data-name="Trazado 636" d="M0,0H746V203H0Z" transform="translate(0 1369)" fill="#121212"/>
+            <text id="MONETTELLI_UI_KIT" data-name="MONETTELLI UI KIT" transform="translate(373 151)" fill="#f1ff71" font-size="50" font-family="SourceSansPro-Black, Source Sans Pro" font-weight="800"><tspan x="-216.3" y="0">MONETTELLI UI KIT</tspan></text>
+            <g id="Grupo_202" data-name="Grupo 202" transform="translate(22 29)">
+              <g transform="matrix(1, 0, 0, 1, -54, -142)" filter="url(#Trazado_637)">
+                <path id="Trazado_637-7" data-name="Trazado 637" d="M0,0H265V265H0Z" transform="translate(93 457)" fill="url(#linear-gradient)"/>
+              </g>
+              <g id="Grupo_201" data-name="Grupo 201" transform="translate(0 -6)">
+                <text id="UI_KIT" data-name="UI KIT" transform="translate(172 433)" fill="#1d1d1d" font-size="55" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-72.518" y="0">UI KIT</tspan></text>
+                <text id="UI_KIT-2" data-name="UI KIT" transform="translate(172 510)" fill="#1d1d1d" font-size="68" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-89.658" y="0">UI KIT</tspan></text>
+              </g>
+            </g>
+            <g id="Grupo_202-2" data-name="Grupo 202" transform="translate(382 29)">
+              <g transform="matrix(1, 0, 0, 1, -414, -142)" filter="url(#Trazado_637-2)">
+                <path id="Trazado_637-8" data-name="Trazado 637" d="M0,0H265V265H0Z" transform="translate(453 457)" fill="url(#linear-gradient)"/>
+              </g>
+              <g id="Grupo_201-2" data-name="Grupo 201" transform="translate(0 -6)">
+                <text id="UI_KIT-3" data-name="UI KIT" transform="translate(172 433)" fill="#1d1d1d" font-size="55" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-72.518" y="0">UI KIT</tspan></text>
+                <text id="UI_KIT-4" data-name="UI KIT" transform="translate(172 510)" fill="#1d1d1d" font-size="68" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-89.658" y="0">UI KIT</tspan></text>
+              </g>
+            </g>
+            <g id="Grupo_202-3" data-name="Grupo 202" transform="translate(22 389)">
+              <g transform="matrix(1, 0, 0, 1, -54, -502)" filter="url(#Trazado_637-3)">
+                <path id="Trazado_637-9" data-name="Trazado 637" d="M0,0H265V265H0Z" transform="translate(93 817)" fill="url(#linear-gradient)"/>
+              </g>
+              <g id="Grupo_201-3" data-name="Grupo 201" transform="translate(0 -6)">
+                <text id="UI_KIT-5" data-name="UI KIT" transform="translate(172 433)" fill="#1d1d1d" font-size="55" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-72.518" y="0">UI KIT</tspan></text>
+                <text id="UI_KIT-6" data-name="UI KIT" transform="translate(172 510)" fill="#1d1d1d" font-size="68" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-89.658" y="0">UI KIT</tspan></text>
+              </g>
+            </g>
+            <g id="Grupo_202-4" data-name="Grupo 202" transform="translate(382 389)">
+              <g transform="matrix(1, 0, 0, 1, -414, -502)" filter="url(#Trazado_637-4)">
+                <path id="Trazado_637-10" data-name="Trazado 637" d="M0,0H265V265H0Z" transform="translate(453 817)" fill="url(#linear-gradient)"/>
+              </g>
+              <g id="Grupo_201-4" data-name="Grupo 201" transform="translate(0 -6)">
+                <text id="UI_KIT-7" data-name="UI KIT" transform="translate(172 433)" fill="#1d1d1d" font-size="55" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-72.518" y="0">UI KIT</tspan></text>
+                <text id="UI_KIT-8" data-name="UI KIT" transform="translate(172 510)" fill="#1d1d1d" font-size="68" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-89.658" y="0">UI KIT</tspan></text>
+              </g>
+            </g>
+            <g id="Grupo_202-5" data-name="Grupo 202" transform="translate(22 749)">
+              <g transform="matrix(1, 0, 0, 1, -54, -862)" filter="url(#Trazado_637-5)">
+                <path id="Trazado_637-11" data-name="Trazado 637" d="M0,0H265V265H0Z" transform="translate(93 1177)" fill="url(#linear-gradient)"/>
+              </g>
+              <g id="Grupo_201-5" data-name="Grupo 201" transform="translate(0 -6)">
+                <text id="UI_KIT-9" data-name="UI KIT" transform="translate(172 433)" fill="#1d1d1d" font-size="55" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-72.518" y="0">UI KIT</tspan></text>
+                <text id="UI_KIT-10" data-name="UI KIT" transform="translate(172 510)" fill="#1d1d1d" font-size="68" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-89.658" y="0">UI KIT</tspan></text>
+              </g>
+            </g>
+            <g id="Grupo_202-6" data-name="Grupo 202" transform="translate(382 749)">
+              <g transform="matrix(1, 0, 0, 1, -414, -862)" filter="url(#Trazado_637-6)">
+                <path id="Trazado_637-12" data-name="Trazado 637" d="M0,0H265V265H0Z" transform="translate(453 1177)" fill="url(#linear-gradient)"/>
+              </g>
+              <g id="Grupo_201-6" data-name="Grupo 201" transform="translate(0 -6)">
+                <text id="UI_KIT-11" data-name="UI KIT" transform="translate(172 433)" fill="#1d1d1d" font-size="55" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-72.518" y="0">UI KIT</tspan></text>
+                <text id="UI_KIT-12" data-name="UI KIT" transform="translate(172 510)" fill="#1d1d1d" font-size="68" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="-89.658" y="0">UI KIT</tspan></text>
+              </g>
+            </g>
+            <text id="UI_KIT-13" data-name="UI KIT" transform="translate(61 313)" fill="#f1eeee" font-size="55" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">UI KIT</tspan></text>
+            <g id="Grupo_204" data-name="Grupo 204" transform="translate(-3 -2)">
+              <g id="Grupo_203" data-name="Grupo 203" transform="translate(1 -3)">
+                <path id="icon_brand_monettelliuikit" d="M28.094,88.384A46.148,46.148,0,1,1,46,92,45.843,45.843,0,0,1,28.094,88.384ZM5.48,46A40.52,40.52,0,1,0,46,5.48,40.566,40.566,0,0,0,5.48,46ZM67.331,60.184a16.632,16.632,0,0,0-3.417-9.176c-2-2.476-5.506-4.008-7.981-4.836a31.886,31.886,0,0,1,3.733,14.011H45.593a16.624,16.624,0,0,0-3.417-9.176,16.442,16.442,0,0,0-6.834-4.425,31.9,31.9,0,0,1,3.515,13.6H24.784a16.627,16.627,0,0,0-3.416-9.176c-3.326-4.116-10.808-5.623-10.808-5.623v-13.6a30.084,30.084,0,0,1,19.7,8q.58.551,1.11,1.124V31.786a30.083,30.083,0,0,1,19.7,8,24.68,24.68,0,0,1,2.039,2.186V31.786a30.084,30.084,0,0,1,19.7,8c8.722,8.28,8.6,20.4,8.6,20.4Z" transform="translate(61 1402)" fill="#f1ff71"/>
+                <text id="UI_KIT-14" data-name="UI KIT" transform="translate(48 1544)" fill="#f1ff71" font-size="45" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">UI KIT</tspan></text>
+              </g>
+              <g id="Grupo_203-2" data-name="Grupo 203" transform="translate(180 -3)">
+                <path id="icon_brand_monettelliuikit-2" data-name="icon_brand_monettelliuikit" d="M28.094,88.384A46.148,46.148,0,1,1,46,92,45.843,45.843,0,0,1,28.094,88.384ZM5.48,46A40.52,40.52,0,1,0,46,5.48,40.566,40.566,0,0,0,5.48,46ZM67.331,60.184a16.632,16.632,0,0,0-3.417-9.176c-2-2.476-5.506-4.008-7.981-4.836a31.886,31.886,0,0,1,3.733,14.011H45.593a16.624,16.624,0,0,0-3.417-9.176,16.442,16.442,0,0,0-6.834-4.425,31.9,31.9,0,0,1,3.515,13.6H24.784a16.627,16.627,0,0,0-3.416-9.176c-3.326-4.116-10.808-5.623-10.808-5.623v-13.6a30.084,30.084,0,0,1,19.7,8q.58.551,1.11,1.124V31.786a30.083,30.083,0,0,1,19.7,8,24.68,24.68,0,0,1,2.039,2.186V31.786a30.084,30.084,0,0,1,19.7,8c8.722,8.28,8.6,20.4,8.6,20.4Z" transform="translate(61 1402)" fill="#bfbfbf"/>
+                <text id="UI_KIT-15" data-name="UI KIT" transform="translate(48 1544)" fill="#bfbfbf" font-size="45" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">UI KIT</tspan></text>
+              </g>
+              <g id="Grupo_203-3" data-name="Grupo 203" transform="translate(359 -3)">
+                <path id="icon_brand_monettelliuikit-3" data-name="icon_brand_monettelliuikit" d="M28.094,88.384A46.148,46.148,0,1,1,46,92,45.843,45.843,0,0,1,28.094,88.384ZM5.48,46A40.52,40.52,0,1,0,46,5.48,40.566,40.566,0,0,0,5.48,46ZM67.331,60.184a16.632,16.632,0,0,0-3.417-9.176c-2-2.476-5.506-4.008-7.981-4.836a31.886,31.886,0,0,1,3.733,14.011H45.593a16.624,16.624,0,0,0-3.417-9.176,16.442,16.442,0,0,0-6.834-4.425,31.9,31.9,0,0,1,3.515,13.6H24.784a16.627,16.627,0,0,0-3.416-9.176c-3.326-4.116-10.808-5.623-10.808-5.623v-13.6a30.084,30.084,0,0,1,19.7,8q.58.551,1.11,1.124V31.786a30.083,30.083,0,0,1,19.7,8,24.68,24.68,0,0,1,2.039,2.186V31.786a30.084,30.084,0,0,1,19.7,8c8.722,8.28,8.6,20.4,8.6,20.4Z" transform="translate(61 1402)" fill="#bfbfbf"/>
+                <text id="UI_KIT-16" data-name="UI KIT" transform="translate(48 1544)" fill="#bfbfbf" font-size="45" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">UI KIT</tspan></text>
+              </g>
+              <g id="Grupo_203-4" data-name="Grupo 203" transform="translate(538 -3)">
+                <path id="icon_brand_monettelliuikit-4" data-name="icon_brand_monettelliuikit" d="M28.094,88.384A46.148,46.148,0,1,1,46,92,45.843,45.843,0,0,1,28.094,88.384ZM5.48,46A40.52,40.52,0,1,0,46,5.48,40.566,40.566,0,0,0,5.48,46ZM67.331,60.184a16.632,16.632,0,0,0-3.417-9.176c-2-2.476-5.506-4.008-7.981-4.836a31.886,31.886,0,0,1,3.733,14.011H45.593a16.624,16.624,0,0,0-3.417-9.176,16.442,16.442,0,0,0-6.834-4.425,31.9,31.9,0,0,1,3.515,13.6H24.784a16.627,16.627,0,0,0-3.416-9.176c-3.326-4.116-10.808-5.623-10.808-5.623v-13.6a30.084,30.084,0,0,1,19.7,8q.58.551,1.11,1.124V31.786a30.083,30.083,0,0,1,19.7,8,24.68,24.68,0,0,1,2.039,2.186V31.786a30.084,30.084,0,0,1,19.7,8c8.722,8.28,8.6,20.4,8.6,20.4Z" transform="translate(61 1402)" fill="#bfbfbf"/>
+                <text id="UI_KIT-17" data-name="UI KIT" transform="translate(48 1544)" fill="#bfbfbf" font-size="45" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">UI KIT</tspan></text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

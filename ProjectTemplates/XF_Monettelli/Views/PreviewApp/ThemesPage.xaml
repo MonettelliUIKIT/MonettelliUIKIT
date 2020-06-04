@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="$safeprojectname$.Views.ThemesPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    Title="Themes"
+    BackgroundColor="{DynamicResource colStartBG1}"
+    mc:Ignorable="d">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary Source="Styles.xaml" />
+    </ContentPage.Resources>
+
+
+    <Shell.TitleView>
+        <StackLayout Padding="0,0,50,0">
+
+            <Label
+                CharacterSpacing="2"
+                Text="Themes"
+                VerticalOptions="CenterAndExpand">
+                <Label.Style>
+                    <OnPlatform x:TypeArguments="Style">
+                        <On
+                            Platform="Android, UWP"
+                            Value="{StaticResource TxtTitle_Android}" />
+                        <On
+                            Platform="iOS"
+                            Value="{StaticResource TxtHeadLine6_iOS}" />
+                    </OnPlatform>
+                </Label.Style>
+                <Label.HorizontalOptions>
+                    <OnPlatform
+                        x:TypeArguments="LayoutOptions"
+                        Android="StartAndExpand"
+                        iOS="CenterAndExpand" />
+                </Label.HorizontalOptions>
+            </Label>
+        </StackLayout>
+    </Shell.TitleView>
+
+
+    <ContentPage.Content>
+
+        <yummy:PancakeView
+            BackgroundGradientEndColor="{DynamicResource colEndSurf3}"
+            BackgroundGradientStartColor="{DynamicResource colStartSurf3}">
+
+
+            <Grid
+                Padding="20"
+                ColumnSpacing="20"
+                RowSpacing="20">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height=".5*" />
+                    <RowDefinition Height=".5*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".5*" />
+                    <ColumnDefinition Width=".5*" />
+                </Grid.ColumnDefinitions>
+
+
+                <!--#region LIGHT THEME-->
+                <Grid
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    RowSpacing="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+
+                    <ffSvg:SvgCachedImage
+                        Grid.Row="0"
+                        BitmapOptimizations="True"
+                        CacheDuration="30"
+                        LoadingPlaceholder="Logo"
+                        RetryDelay="450"
+                        Source="resource://$safeprojectname$.Resources.SVGs.svg_preview_lighttheme.svg">
+                        <ffSvg:SvgCachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Light_Tapped" />
+                        </ffSvg:SvgCachedImage.GestureRecognizers>
+                    </ffSvg:SvgCachedImage>
+
+                    <Label
+                        Grid.Row="1"
+                        HorizontalTextAlignment="Center"
+                        MaxLines="2"
+                        Style="{StaticResource TxtTitle_1}"
+                        Text="LIGHT" />
+                </Grid>
+                <!--#endregion-->
+
+                <!--#region DARK THEME-->
+                <Grid
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    RowSpacing="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+
+                    <ffSvg:SvgCachedImage
+                        Grid.Row="0"
+                        BitmapOptimizations="True"
+                        CacheDuration="30"
+                        LoadingPlaceholder="Logo"
+                        RetryDelay="450"
+                        Source="resource://$safeprojectname$.Resources.SVGs.svg_preview_darktheme.svg">
+                        <ffSvg:SvgCachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Dark_Tapped" />
+                        </ffSvg:SvgCachedImage.GestureRecognizers>
+                    </ffSvg:SvgCachedImage>
+
+                    <Label
+                        Grid.Row="1"
+                        HorizontalTextAlignment="Center"
+                        MaxLines="2"
+                        Style="{StaticResource TxtTitle_1}"
+                        Text="DARK" />
+                </Grid>
+                <!--#endregion-->
+
+                <!--#region INSTAGRAM DARK THEME-->
+                <Grid
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    RowSpacing="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+
+                    <ffSvg:SvgCachedImage
+                        Grid.Row="0"
+                        BitmapOptimizations="True"
+                        CacheDuration="30"
+                        LoadingPlaceholder="Logo"
+                        RetryDelay="450"
+                        Source="resource://$safeprojectname$.Resources.SVGs.svg_preview_instagramdarktheme.svg">
+                        <ffSvg:SvgCachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="InstagramDark_Tapped" />
+                        </ffSvg:SvgCachedImage.GestureRecognizers>
+                    </ffSvg:SvgCachedImage>
+
+                    <Label
+                        Grid.Row="1"
+                        HorizontalTextAlignment="Center"
+                        MaxLines="2"
+                        Style="{StaticResource TxtTitle_1}"
+                        Text="INSTAGRAM DARK" />
+                </Grid>
+                <!--#endregion-->
+
+                <!--#region INSTAGRAM ELEGANT THEME-->
+                <Grid
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    RowSpacing="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+
+                    <ffSvg:SvgCachedImage
+                        Grid.Row="0"
+                        BitmapOptimizations="True"
+                        CacheDuration="30"
+                        LoadingPlaceholder="Logo"
+                        RetryDelay="450"
+                        Source="resource://$safeprojectname$.Resources.SVGs.svg_preview_instagrameleganttheme.svg">
+                        <ffSvg:SvgCachedImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="InstagramElegant_Tapped" />
+                        </ffSvg:SvgCachedImage.GestureRecognizers>
+                    </ffSvg:SvgCachedImage>
+
+                    <Label
+                        Grid.Row="1"
+                        HorizontalTextAlignment="Center"
+                        MaxLines="2"
+                        Style="{StaticResource TxtTitle_1}"
+                        Text="INSTAGRAM ELEGANT" />
+                </Grid>
+                <!--#endregion-->
+
+            </Grid>
+
+        </yummy:PancakeView>
+    </ContentPage.Content>
+
+</ContentPage>

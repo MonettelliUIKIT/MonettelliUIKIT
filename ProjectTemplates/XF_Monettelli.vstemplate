@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>MonettelliUIKIT (Xamarin.Forms)</Name>
+        <Description>A multiproject template to create applications for iOS and Android by implementing the "Clean UI Style Architecture" with or without Shell.</Description>
+        <Icon>icon.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+
+        <LanguageTag>C#</LanguageTag>
+        <PlatformTag>android</PlatformTag>
+        <PlatformTag>ios</PlatformTag>
+        <ProjectTypeTag>mobile</ProjectTypeTag>
+
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>XF_App</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>true</CreateInPlace>  
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+                XF_Monettelli\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+                 <ProjectTemplateLink ProjectName="$safeprojectname$.Android" CopyParameters="true">
+                XF_Monettelli.Android\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+                XF_Monettelli.iOS\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

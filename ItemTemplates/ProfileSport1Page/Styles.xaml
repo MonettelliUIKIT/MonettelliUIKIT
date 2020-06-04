@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="$rootnamespace$.Views.Profiles.Styles"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!--#region Headline4-->
+    <Style
+        x:Key="TxtHeadLine4"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeH4_34}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Bold" />
+    </Style>
+    <!--#endregion-->
+
+    <!--#region Headline5-->
+    <Style
+        x:Key="TxtHeadLine5"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeH5_24}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Bold" />
+    </Style>
+    <!--#endregion-->
+
+    <!--#region Headline6-->
+    <Style
+        x:Key="TxtHeadLine6_iOS"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Bold" />
+    </Style>
+
+    <Style
+        x:Key="TxtHeadLine6"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colQua}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeH6_20}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Black" />
+    </Style>
+    <!--#endregion-->
+
+    <!--#region Title-->
+    <Style
+        x:Key="TxtTitle_Android"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colPrim}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_Bold" />
+    </Style>
+
+    <Style
+        x:Key="TxtTitle_1"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colTer}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Regular" />
+    </Style>
+
+    <Style
+        x:Key="TxtTitle_2"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colSec}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Regular" />
+    </Style>
+
+    <Style
+        x:Key="TxtTitle_3"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colTer}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeTit_18}" />
+        <Setter Property="FontFamily" Value="BebasNeue_Regular" />
+    </Style>
+    <!--#endregion-->
+
+    <!--#region Caption-->
+    <Style
+        x:Key="TxtCaption"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colTer}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeCap_12}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_SemiBold" />
+    </Style>
+    <!--#endregion-->
+
+    <!--#region Overline-->
+    <Style
+        x:Key="TxtOverline"
+        TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource colTer}" />
+        <Setter Property="FontSize" Value="{StaticResource TxtSizeOver_10}" />
+        <Setter Property="FontFamily" Value="SourceSansPro_SemiBold" />
+    </Style>
+    <!--#endregion-->
+
+</ResourceDictionary>
