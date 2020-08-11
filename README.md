@@ -14,4 +14,4 @@ It is worth mentioning that, being open source, you can improve the features by 
 
 ## Credits
 
-Many thanks to all those who <a href="https://monettelliuikit.github.io" target="_blank">collaborated</a> directly and indirectly to this great project.
+Many thanks to all those who <a href="https://monettelliuikit.github.io/docs/credits" target="_blank">collaborated</a> directly and indirectly to this great project.
