@@ -1,4 +1,17 @@
-# MonettelliUIKIT
-A multiproject template to create applications for iOS, Android and UWP in Xamarin.Forms by implementing the "Clean UI Style Architecture" with or without Shell.
+<img src="https://raw.githubusercontent.com/MonettelliUIKIT/monettelliuikit.github.io/master/assets/images/MonettelliUIKIT_Logo_2.png" width="350px" />
 
-[![Free Bootstrap Theme for Developers and Startups](https://raw.githubusercontent.com/danielmonettelli/monettelliuikitdoc/master/assets/images/thumb.png?raw=true)](https://danielmonettelli.github.io/MonettelliUIKITDOCS/)
+# MonettelliUIKIT
+
+A multiproject template for building iOS and Android applications in Xamarin.Forms for ***productivity and maintenance*** thanks to the **"Clean UI Style Architecture"**.
+
+For more information click <a href="https://monettelliuikit.github.io" target="_blank">HERE</a>.
+
+### Is the extension free?
+
+Of course, it was made for the Xamarin community.
+
+It is worth mentioning that, being open source, you can improve the features by sending an Issue or a pull request to <a href="https://github.com/MonettelliUIKIT/MonettelliUIKIT" target="_blank">MonettelliUIKIT</a>.
+
+## Credits
+
+Many thanks to all those who <a href="https://monettelliuikit.github.io" target="_blank">collaborated</a> directly and indirectly to this great project.
